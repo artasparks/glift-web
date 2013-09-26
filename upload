@@ -1,0 +1,20 @@
+#!/bin/bash
+
+myarg="$1"
+if [ $myarg = "all" ]
+then
+  s3cmd put *.css s3://www.gliftgo.com --acl-public
+  s3cmd put --recursive jsfiles s3://www.gliftgo.com --acl-public
+  s3cmd put *.html s3://www.gliftgo.com --acl-public
+  s3cmd put --recursive images s3://www.gliftgo.com --acl-public
+  s3cmd put --recursive testdata s3://www.gliftgo.com --acl-public
+  exit
+fi
+
+if [ $myarg = "libs" ]
+then
+  s3cmd put --recursive libs s3://www.gliftgo.com --acl-public
+  exit
+fi
+
+s3cmd put $myarg s3://www.gliftgo.com/$myarg --acl-public

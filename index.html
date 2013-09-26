@@ -1,0 +1,63 @@
+<html>
+<head>
+
+<title> Glift </title>
+<script type="text/javascript" src="libs/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="testdata/sgfs.js"></script>
+<script type="text/javascript" src="testdata/gogameguru_commentary.js"></script>
+<script type="text/javascript" src="libs/d3.min.js"></script>
+<!-- Compiled -->
+<script type="text/javascript" src="libs/glift.js"></script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #glift_display1 {
+        height:90%;
+        position:relative;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="wrap" style="position:relative;">
+      <div id="gheader"></div>
+      <select id='GliftType' name="GliftType" onchange='selectGameType()'>
+        <option value="ProblemTest">ProblemTest</option>
+        <option value="GameTest">GameTest</option>
+      </select>
+      <div id="glift_display1"></div>
+      <script type="text/javascript">
+        var gliftWidget = undefined;
+        var selectGameType = function() {
+          var value = $('#GliftType').val();
+          gliftWidget !== undefined && gliftWidget.destroy();
+          switch(value) {
+            case 'GameTest':
+              gliftWidget = glift.widgets.baseWidget({
+                sgfString: testdata.gogameguru_commentary,
+                theme: 'DEPTH',
+                goBoardBackground: 'images/bambootile_warm.jpg',
+                divId: "glift_display1"
+              });
+              break;
+            case 'ProblemTest':
+              gliftWidget = glift.widgets.basicProblem({
+                sgfStringList: [
+                    testdata.sgfs.complexproblem,
+                    testdata.sgfs.realproblem
+                ],
+                divId: "glift_display1"
+              });
+              break;
+            default:
+              // do nothing;
+          }
+        }
+        selectGameType();
+      </script>
+    </div>
+  </body>
+</html>
