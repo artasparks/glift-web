@@ -27,6 +27,7 @@
       <select id='GliftType' name="GliftType" onchange='selectGameType()'>
         <option value="ProblemTest">ProblemTest</option>
         <option value="GameTest">GameTest</option>
+        <option value="MarksTest">MarksTest</option>
       </select>
       <div id="glift_display1"></div>
       <script type="text/javascript">
@@ -49,6 +50,14 @@
                     testdata.sgfs.complexproblem,
                     testdata.sgfs.realproblem
                 ],
+                divId: "glift_display1"
+              });
+              break;
+            case 'MarksTest':
+              gliftWidget = glift.widgets.basicProblem({
+                sgfString: testdata.sgfs.marktest,
+                theme: 'DEPTH',
+                goBoardBackground: 'images/bambootile_warm.jpg',
                 divId: "glift_display1"
               });
               break;
