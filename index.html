@@ -2,71 +2,76 @@
 <head>
 
 <title> Glift </title>
+<link rel="stylesheet" type="text/css" href="base.css">
 <script type="text/javascript" src="libs/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="testdata/sgfs.js"></script>
 <script type="text/javascript" src="testdata/gogameguru_commentary.js"></script>
 <script type="text/javascript" src="libs/d3.min.js"></script>
 <!-- Compiled -->
 <script type="text/javascript" src="libs/glift.js"></script>
-
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      #glift_display1 {
-        height:90%;
-        position:relative;
-      }
     </style>
   </head>
 
   <body>
-    <div id="wrap" style="position:relative;">
-      <div id="gheader"></div>
-      <select id='GliftType' name="GliftType" onchange='selectGameType()'>
-        <option value="ProblemTest">ProblemTest</option>
-        <option value="GameTest">GameTest</option>
-        <option value="MarksTest">MarksTest</option>
-      </select>
+    <div id='wrapper'>
+      <div id='header'>
+        <!-- <div id='toptitle'>Glift</div> -->
+      </div>
+      <div id='navbar'></div>
+      <div id='type_selector'>
+        <select id='GliftType' name="GliftType" onchange='selectGameType()'>
+          <option value="ProblemTest">ProblemTest</option>
+          <option value="GameTest">GameTest</option>
+          <option value="MarksTest">MarksTest</option>
+          <option value="Kogos">Kogos Joseki Dictionary</option>
+        </select>
+      </div>
       <div id="glift_display1"></div>
-      <script type="text/javascript">
-        var gliftWidget = undefined;
-        var selectGameType = function() {
-          var value = $('#GliftType').val();
-          gliftWidget !== undefined && gliftWidget.destroy();
-          switch(value) {
-            case 'GameTest':
-              gliftWidget = glift.widgets.baseWidget({
-                sgfString: testdata.gogameguru_commentary,
-                theme: 'DEPTH',
-                goBoardBackground: 'images/bambootile_warm.jpg',
-                divId: "glift_display1"
-              });
-              break;
-            case 'ProblemTest':
+    </div> <!-- wrapper -->
+    <script type="text/javascript">
+      var gliftWidget = undefined;
+      var selectGameType = function() {
+        var value = $('#GliftType').val();
+        gliftWidget !== undefined && gliftWidget.destroy();
+        switch(value) {
+          case 'GameTest':
+            gliftWidget = glift.widgets.baseWidget({
+              sgfString: testdata.gogameguru_commentary,
+              theme: 'DEPTH',
+              goBoardBackground: 'images/bambootile_warm.jpg',
+              divId: "glift_display1"
+            });
+            break;
+          case 'ProblemTest':
+            gliftWidget = glift.widgets.basicProblem({
+              sgfStringList: [
+                  testdata.sgfs.complexproblem,
+                  testdata.sgfs.realproblem
+              ],
+              divId: "glift_display1"
+            });
+            break;
+          case 'MarksTest':
+            gliftWidget = glift.widgets.basicProblem({
+              sgfString: testdata.sgfs.marktest,
+              theme: 'DEPTH',
+              goBoardBackground: 'images/bambootile_warm.jpg',
+              divId: "glift_display1"
+            });
+            break;
+          case 'Kogos':
+            $.get("testdata/Kogos.sgf", function(data) {
               gliftWidget = glift.widgets.basicProblem({
-                sgfStringList: [
-                    testdata.sgfs.complexproblem,
-                    testdata.sgfs.realproblem
-                ],
+                sgfString: data,
                 divId: "glift_display1"
               });
-              break;
-            case 'MarksTest':
-              gliftWidget = glift.widgets.basicProblem({
-                sgfString: testdata.sgfs.marktest,
-                theme: 'DEPTH',
-                goBoardBackground: 'images/bambootile_warm.jpg',
-                divId: "glift_display1"
-              });
-              break;
-            default:
-              // do nothing;
-          }
+            });
+          default:
+            // do nothing;
         }
-        selectGameType();
-      </script>
-    </div>
+      }
+      selectGameType();
+    </script>
   </body>
 </html>
