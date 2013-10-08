@@ -1,92 +1,81 @@
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A">
+    <meta name="author" content="Kashomon">
+    <!-- <link rel="shortcut icon" href="../../assets/ico/favicon.png"> -->
 
-<title> Glift </title>
-<link rel="stylesheet" type="text/css" href="base.css">
-<script type="text/javascript" src="libs/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="testdata/sgfs.js"></script>
-<script type="text/javascript" src="testdata/gogameguru_commentary.js"></script>
-<script type="text/javascript" src="libs/d3.min.js"></script>
-<!-- Compiled -->
-<script type="text/javascript" src="libs/glift.js"></script>
-    <style>
-    </style>
+    <title>Glift</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="libs/bootstrap3/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="base.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="libs/bootstrap3/assets/js/html5shiv.js"></script>
+      <script src="libs/bootstrap3/assets/js/respond.min.js"></script>
+    <![endif]-->
   </head>
 
   <body>
-    <div id='wrapper'>
-      <div id='header'>
-        <!-- <div id='toptitle'>Glift</div> -->
+
+    <div class="container">
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Glift</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#Home">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Examples<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#Kogos">Kogos Joseki Dictionary</a></li>
+                <li><a href="#GameEx">Commented Game</a></li>
+                <li><a href="#MarksEx">Marks</a></li>
+              </ul>
+            </li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#API">API</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/Kashomon/glift">Github</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-      <div id='navbar'></div>
-      <div id="glift_display1"></div>
-      <div id='type_selector'>
-        <select id='GliftType' name="GliftType" onchange='testlib.selectGameType()'>
-          <option value="ProblemTest">ProblemTest</option>
-          <option value="GameTest">GameTest</option>
-          <option value="MarksTest">MarksTest</option>
-          <option value="Kogos">Kogos Joseki Dictionary</option>
-        </select>
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h2 class='zinline'>Glift:</h2>
+        <div class='zinline'> A Responsive Go Library </div>
+        <div id='glift_display1'></div>
+        <p>
+          <!-- <a class="btn btn-lg btn-primary" href="../../components/#navbar">View navbar docs &raquo;</a> -->
+        </p>
       </div>
-    </div> <!-- wrapper -->
-    <script type="text/javascript">
-      var testlib = {};
-      testlib.options = {
-        'ProblemTest' : 1,
-        'GameTest' : 1,
-        'MarksTest' : 1,
-        'Kogos' : 1
-      };
-      var hash = location.hash ? location.hash.slice(1) : ''
-      if (hash !== undefined && testlib.options[hash] !== undefined) {
-        value = hash;
-      }
-      $('#GliftType').val(hash);
-      (function() {
-        var gliftWidget = undefined;
-        testlib.selectGameType = function() {
-          var value = $('#GliftType').val();
-          gliftWidget !== undefined && gliftWidget.destroy();
-          switch(value) {
-            case 'GameTest':
-              gliftWidget = glift.widgets.baseWidget({
-                sgfString: testdata.gogameguru_commentary,
-                theme: 'DEPTH',
-                goBoardBackground: 'images/bambootile_warm.jpg',
-                divId: "glift_display1"
-              });
-              break;
-            case 'ProblemTest':
-              gliftWidget = glift.widgets.basicProblem({
-                sgfStringList: [
-                    testdata.sgfs.complexproblem,
-                    testdata.sgfs.realproblem
-                ],
-                divId: "glift_display1"
-              });
-              break;
-            case 'MarksTest':
-              gliftWidget = glift.widgets.basicProblem({
-                sgfString: testdata.sgfs.marktest,
-                theme: 'DEPTH',
-                goBoardBackground: 'images/bambootile_warm.jpg',
-                divId: "glift_display1"
-              });
-              break;
-            case 'Kogos':
-              $.get("testdata/Kogos.sgf", function(data) {
-                gliftWidget = glift.widgets.baseWidget({
-                  sgfString: data,
-                  divId: "glift_display1"
-                });
-              });
-            default:
-              // do nothing;
-          }
-          location.hash = value;
-        }
-      })();
-      testlib.selectGameType();
-    </script>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of th document so the pages load faster -->
+    <script src="libs/jquery-1.10.2.min.js"></script>
+    <script src="libs/bootstrap3/dist/js/bootstrap.min.js"></script>
+    <script src="testdata/sgfs.js"></script>
+    <script src="testdata/gogameguru_commentary.js"></script>
+    <script src="libs/d3.min.js"></script>
+    <script src="libs/glift.js"></script>
+    <script src="web_goo.js"></script>
   </body>
 </html>

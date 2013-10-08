@@ -3,10 +3,11 @@
   padding: 0;
 }
 #glift_display1 {
-  position:absolute;
-  top:0;
-  bottom:0;
-  width:100%;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  /* width:100%; */
+  /* height:100%; */
 }
 body {
   height:100%;
@@ -16,4 +17,7 @@ body {
   float:left;
   position:relative;
   z-index:0;
+}
+.zinline {
+  display: inline;
 }
