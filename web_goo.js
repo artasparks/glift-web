@@ -3,6 +3,7 @@ var gliftWidget = undefined;
 var testlib = {};
 testlib.options = {
   'ProblemEx' : 1,
+  'ProblemEx2' : 1,
   'GameEx' : 1,
   'MarksEx' : 1,
   'Kogos' : 1
@@ -19,7 +20,8 @@ var getContent = function(hash) {
       gliftWidget = glift.widgets.baseWidget({
         sgfString: testdata.gogameguru_commentary,
         theme: 'DEPTH',
-        goBoardBackground: 'images/bambootile_warm.jpg',
+        //goBoardBackground: 'images/bambootile_warm.jpg',
+        goBoardBackground: 'images/purty_wood.png',
         divId: "glift_display1"
       });
       break;
@@ -29,6 +31,13 @@ var getContent = function(hash) {
             testdata.sgfs.complexproblem,
             testdata.sgfs.realproblem
         ],
+        divId: "glift_display1"
+      });
+      break;
+    case 'ProblemEx2':
+      gliftWidget = glift.widgets.basicProblem({
+        sgfStringList: [ testdata.sgfs.gogameguru_hard ],
+        icons: ['refresh', 'roadmap', 'checkbox'],
         divId: "glift_display1"
       });
       break;
