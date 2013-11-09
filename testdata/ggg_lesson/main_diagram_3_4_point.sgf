@@ -1,0 +1,14 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[pq]AB[po][np]LB[qo:A][nq:B][qq:E][mr:D][nr:C]TR[np]C[<strong> Why Shouldn't White Play the 3-4 Point? </strong>
+
+So you're probably wondering why White shouldn't play at the 3-4 point, right? Let's cover that first.
+
+If White enters the corner at 3-4, Black can respond with a nice knight's move press (triangle stone in the diagram). As we saw earlier, this move attempts to enclose White in the corner and is quite natural.
+
+In this case, White can't easily trade the corner for the outside as I showed earlier because Black has already made a position on the right side. So, if White wants to respond locally, the best options are A, B, or C. I'll discuss why A isn't a good move below.
+
+White C is sometimes playable, but is usually a bit slack because it seems like White has been forced into a low position on the second line. If White plays C, Black would follow up later with D or E.  Black will choose between these depending on what Black wants to achieve.
+
+White B is a better move. In fact, it's the best continuation once White plays at the 3-4 point. However, the final result isn't particularly good in this opening and it leads to a position that is favorable for Black.
+])

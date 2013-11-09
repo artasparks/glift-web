@@ -1,0 +1,14 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[kc][lc][kd][md][qd][pe][qh]AB[mc][oc][ld][le]C[What is the goal of this problem?]
+(;B[ne]
+;W[nd]C[The net is a good idea.  How does Black respond when White resists?]
+;B[od]
+;W[nc]
+;B[nb]
+;W[mb]
+;B[me]
+;W[mc]
+(;B[oe]C[Correct.  Black has an excellent position.])
+(;B[mg]LB[oe:A]C[No good -- White will cut at A.]))
+(;B[nd]TR[pe][qh]C[The direct ladder doesn't work because of White's stones.]))

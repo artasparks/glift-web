@@ -1,0 +1,12 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[oc][pe][qe]AB[mc][pd][qd][qg]
+;B[]LB[pd:1]C[Black may also try 1.  What's White's correct response?]
+;W[od]
+;B[re]
+(;W[rf]C[White is tricked again.])
+(;W[oe]
+;B[rc]
+(;W[ld]C[Correct])
+(;W[og]TR[mc]C[Incorrect.  White must put pressure on the marked stone.]
+;B[kd])))

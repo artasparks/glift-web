@@ -1,0 +1,6 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[nd][qe][qf][pg]AB[pd][of][pf]LB[pe:A]C[How can Black make good shape?  Black is worried about the cut at A.]
+(;B[od]LB[nc:B][rc:A][qd:C]C[Correct. This is the move.  Black can think about B as a follow-up, if White plays A.  If White defends his lone stone, Black can take the corner at C.])
+(;B[pe]LB[nd:A]C[This is ok, but Black can do better.  It doesn't hurt the White stone at A.])
+(;B[qd]LB[od:B][oe:C][pe:A]C[Black can't play this way.  If White A, Black B, White C, and Black is sealed in.]))

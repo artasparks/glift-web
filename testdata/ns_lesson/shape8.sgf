@@ -1,0 +1,17 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[nc][qe][qf][pg]AB[pd][of][pf]LB[nc:A]C[This is very similar to the previous problem, but the White stone at A is a line lower.  How does this change Black's strategy?]
+(;B[od]LB[nc:A]C[This isn't as effective as in the previous problem.  White's stone at A still still has four liberties and plenty of space to run.])
+(;B[oc]LB[nd:A][od:B]C[This isn't good -- White will play at A, and Black will be forced to create an empty triangle at B.]
+;W[nd])
+(;B[qd]
+;W[pe]C[This is on the right path, but how does Black follow up White's cut?]
+(;B[od]
+;W[oe]
+(;B[nd]
+;W[nf]
+(;B[mc]C[Correct.])
+(;B[ne]LB[nc:A]C[Black should seal in the White stone at A.  Otherwise, White might bring the stone back into play.])
+(;B[lc]C[Correct.]))
+(;B[ne]LB[nd:A]C[This is no good -- Black will get cut at A.]))
+(;B[oe]LB[od:A]C[This is too much.  White will cut at A.])))

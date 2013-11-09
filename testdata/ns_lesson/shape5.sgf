@@ -1,0 +1,17 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[qb][lc][oc][pc][le]AB[qc][rc][od][pd][qe]C[What can Black do?]
+;B[nc]
+;W[nb]
+(;B[mb]C[This doesn't work because White will play at A, putting Black in atari. Then, if Black B, White C.]
+;W[mc]
+;B[nd]
+;W[ob])
+(;B[ob]
+;W[pb]
+;B[mb]
+;W[oa]
+(;B[nd]LB[mc:A]C[This, of course, isn't good, because White will cut at A.])
+(;B[mc]LB[ma:B][rb:A][md:D][nd:C]C[Correct.  White is cut.  Not only that, A and B are now sente for Black, since they threaten to kill White's group on the top.
+
+Do not be scared of C.  Black can just push up at D.  Black is very strong on the right, so he's very safe.])))

@@ -1,0 +1,14 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[oc][md][me][pe]AB[mc][nc][ld][qd][qg]
+;B[]LB[nc:2][me:1]C[In response to White 1, Black has played 2.  How does White respond?]
+;W[nd]
+;B[kc]
+;W[qe]
+;B[ob]
+(;W[pc]TR[qg]C[Correct.  White has effectively taken the corner.  Plus, the marked stone is weak, so White will get sente while Black defends his stone.]
+;B[qj])
+(;W[pj]C[White must not be impatient.  If White plays this way, White will lose the whole corner.]
+;B[od]
+;W[oe]
+;B[pd]C[Black's corner is very big.]))

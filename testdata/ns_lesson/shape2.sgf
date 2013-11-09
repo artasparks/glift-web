@@ -1,0 +1,20 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[mb][kc][lc][pc][kd][md][qd][qf]AB[nb][mc][oc][ld][od][le]C[What's the problem with this shape?  Black is in Atari, but more important than the Atari, Black might get cut.]
+(;B[nc]LB[ne:A]C[White will just play at A and cut Black in two.])
+(;B[ne]LB[me:A]C[There's a problem with this move.  White will play at A, and Black will have a hard time staying connected.]
+;W[me]
+;B[mf]LB[lf:A][nf:B]C[Black is left with cutting points at A and B.]
+;W[nc]
+(;B[nf]
+;W[lf])
+(;B[lf]
+;W[nf]))
+(;B[me]C[This is the strongest move.  ]
+;W[nc]
+(;B[nd]
+;W[mc]
+(;B[of]C[Correct. This is a good follow-up])
+(;B[ne]LB[of:A]C[This is a little slow.  Black can move a little faster by jumping out at A.])
+(;B[nf]C[Correcte. This is also good.]))
+(;B[ne]C[Gote])))

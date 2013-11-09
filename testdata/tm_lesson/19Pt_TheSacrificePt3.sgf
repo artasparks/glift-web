@@ -1,0 +1,10 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[oa][nb][ob][pb][qb][oc][od][pe][qe][of][qf][rf]AB[mc][nc][pc][nd][pd][qd][rd][ne][oe][re][qg]LB[ob:1]C[White must connect at 1.  Where does Black play now?]
+(;B[rg]
+;W[sf]
+;B[pg]
+;W[pf]
+(;B[ng]LB[qc:A][rc:B][sd:C][se:D]C[Correct!  White must next play any of A through D to reduce the liberties on the group.  Even though Black has lost the entire corner, Black is completely satisfied with his perfect thickness.])
+(;B[mg]LB[ng:A]C[Too Slack. Black must play at A.]))
+(;B[pg]LB[pg:1]C[Black 1 is a mistake.]))

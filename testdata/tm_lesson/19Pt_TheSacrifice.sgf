@@ -1,0 +1,11 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[oc][pe][qe][rf]AB[mc][qd][re][qg]LB[rf:1]C[White 1 is a mistake and means that White got tricked.  Black can now play a beautiful sacrifice to win an excellent position.  How does black exploit the situation?]
+;B[pd]
+;W[od]
+;B[rd]
+;W[qf]C[There is no way back for White now.]
+;B[oe]
+;W[of]
+(;B[ne]C[Correct])
+(;B[pb]))

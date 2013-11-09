@@ -1,0 +1,6 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[ob][lc][oc][pc][qc][rc][rd][qf]AB[nb][nc][od][pd][qd][qe][re]C[Where is the shape move for Black?  This problem tells us the difference between Dan level players and Kyu level players.  Dan level players can see this sort of move instantly.]
+(;B[me]LB[md:B][nd:A]TR[ne][oe][pe]C[Correct.  This double knights move is very cool.  If White tries to cut at A, Black will play at B and force White's stones to follow the marked path until they are captured])
+(;B[nd]C[This is ok, but Black can do better.])
+(;B[ne]LB[md:A][nd:B][lf:C]C[This is not as good because White can play at A as a nice forcing move.  Then, if Black connects at B, White will play at C.]))

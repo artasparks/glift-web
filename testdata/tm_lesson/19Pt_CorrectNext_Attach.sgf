@@ -1,0 +1,12 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[oc][md][me][pe]AB[mc][ld][qd][qe][qg]
+;B[]LB[me:1][qe:2]C[If Black 2 after White 1, how does White respond?]
+;W[lc]
+;B[kc]
+;W[lb]
+;B[kd]
+(;W[mb]C[Correct. White is very solid.])
+(;W[nc]LB[kb:A]C[This is incorrect.  Black gets a free forcing move at A.]
+;B[kb]
+;W[mb]))

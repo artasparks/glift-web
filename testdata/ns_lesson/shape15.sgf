@@ -1,0 +1,9 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[pb][pc][jd][pd][qe][qf]AB[qc][qd][re][rf]C[What's the right shape move?]
+(;B[qg]
+;W[pg]C[What if White counter-hanes?]
+(;B[ph]C[Correct! Double hane.  White is very weak here.])
+(;B[qh]C[Black is letting White push him around.]))
+(;B[rg]LB[ph:A]C[If Black continues playing low, White will jump out at A.])
+(;B[qb]LB[qg:A]C[If Black plays this way, he will be sealed into the corner after White at A.]))

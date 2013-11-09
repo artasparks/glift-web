@@ -1,0 +1,13 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[qb][oc][od][pe][qe][of][qf][rf]AB[mc][pd][qd][rd][ne][oe][re][qg]LB[qb:1]C[White 1 is the best follow up, but it's not enough.  How does Black proceed?]
+;B[pc]
+;W[pb]
+;B[ob]
+;W[nb]LB[ob:B][pc:A]C[A and B are clever forcing moves that help Black to fix his weaknesses.  How does black finish up?]
+;B[nc]
+;W[oa]
+(;B[nd]C[Correct.  Can you see what happens next?]
+;W[ob])
+(;B[me]LB[pg:A]C[This, of course, doesn't work.  White will just play at A]
+;W[pg]))

@@ -1,0 +1,8 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[jc][pc][nd][od][pd]AB[lc][nc][oc][qf]C[Which stones are weak and which stones are strong?  After you figure that out, where should Black play?]
+(;B[md]LB[le:B][me:A]C[Correct. This help's black come out.  Also, notice how this is at the head of the White stones?  This puts an immediate stop to White's progress.  This is also a good move for eye space.  
+
+If next White plays A, Black will follow up with B.])
+(;B[mc]LB[le:A]C[This is not as good for eye space.  Also, White now has a good followup at A.])
+(;B[qb]LB[pb:A]C[This is a bad idea.  White get's to cut off Black's stones instantly at A.]))

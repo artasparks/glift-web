@@ -1,0 +1,30 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[pb][nc][pc][qd][rd]AB[oc][qc][pd][qe]
+(;B[pe]
+(;W[qb]C[Black has a nice forcing move.]
+(;B[re]
+;W[rc]
+(;B[ne]C[Correct.  Black has impressive thickness.]
+;W[od]
+;B[oe]
+;W[ob])
+(;B[ob]C[This is very dangerous for Black.]
+;W[od]
+;B[nd]
+;W[oe]
+;B[nb]
+;W[mc]
+;B[mb]
+;W[lc]))
+(;B[nd]LB[re:A]C[Black should play at A first]))
+(;W[rb]
+;B[ob]
+;W[qb]
+;B[nd]))
+(;B[rb]C[This almost works, but...]
+;W[re]
+;B[qf]
+;W[qb]C[Black dies.])
+(;B[rc]C[Black doesn't have enough liberties to play this way.]
+;W[re]))

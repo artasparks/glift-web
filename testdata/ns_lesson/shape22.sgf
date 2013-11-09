@@ -1,0 +1,17 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[kc][qc][rc][od][pd][qe]AB[qb][rb][oc][pc][md]C[Where does Black play?]
+(;B[mb]C[Correct. This is the move.])
+(;B[nc]C[This move is slow.])
+(;B[nd]TR[kc]C[Black can't play this way because of the marked stone.]
+;W[mb]C[This is the shape point.]
+;B[nb]
+;W[mc]
+;B[nc]C[This is a good exchange for White -- it's all sente.])
+(;B[mc]C[This doesn't work.]
+;W[nb]
+;B[mb]
+;W[nc]
+;B[nd]
+;W[pb])
+(;B[lb]C[This is ok, but it gives White free moves.]))

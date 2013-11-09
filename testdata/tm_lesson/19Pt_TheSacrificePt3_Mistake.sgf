@@ -1,0 +1,11 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[oa][nb][ob][pb][qb][oc][od][pe][qe][of][qf][rf]AB[mc][nc][pc][nd][pd][qd][rd][ne][oe][re][pg][qg]
+;B[]LB[pg:1]C[Black 1 is a mistake.  What is White's punishment?]
+;W[rg]
+;B[pf]
+(;W[qh]C[Correct.  This is a better position for White than in the previous variations since White has escaped on the bottom.]
+;B[ph]
+;W[qi])
+(;W[qi]LB[rh:A]C[This doesn't work, since Black will play at A.]
+;B[rh]))

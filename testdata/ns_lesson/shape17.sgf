@@ -1,0 +1,6 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[kc][lc][rc][jd][md][od][me][pe][qe][qh]AB[mc][nc][oc][pc][ld][le][mf]
+(;B[oe]C[Correct!  White can do nothing! Black captures White.  Preventing White from taking the bamboo joint is key.])
+(;B[nf]LB[oe:A]C[After this move, White will make a bamboo joint at A.]
+;W[oe]))

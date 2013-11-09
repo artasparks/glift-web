@@ -1,0 +1,14 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[oc][qd][rd][qj]AB[pe][qe][re]LB[nd:A][qj:B]C[This actually comes out of a Joseki.  Usually White needs another move at A, but instead White played at B.  What is Black's follow-up?]
+;B[pc]
+;W[pd]LB[pc:A]C[Nice!  How does Black follow-up his move at A?]
+;B[od]
+;W[pb]C[This move is necessary for White.]
+;B[nc]
+;W[ob]
+(;B[rc]C[This is probably a little early.]
+;W[qc]
+;B[sd]
+;W[rb])
+(;B[nd]C[Correct.  Black has excellent thickness.]))

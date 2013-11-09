@@ -7,9 +7,15 @@ then
   s3cmd put --recursive jsfiles s3://www.gliftgo.com --acl-public
   s3cmd put *.html s3://www.gliftgo.com --acl-public
   s3cmd put *.js s3://www.gliftgo.com --acl-public
-  s3cmd put --recursive images s3://www.gliftgo.com --acl-public
   s3cmd put --recursive testdata s3://www.gliftgo.com --acl-public
-  s3cmd put --recursive libs s3://www.gliftgo.com --acl-public
+  # s3cmd put --recursive images s3://www.gliftgo.com --acl-public
+  # s3cmd put --recursive libs s3://www.gliftgo.com --acl-public
+  exit
+fi
+
+if [ $myarg = "testdata" ]
+then
+  s3cmd put --recursive testdata s3://www.gliftgo.com --acl-public
   exit
 fi
 

@@ -1,0 +1,10 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[rb][jc][mc][rc][od][qd][pe][qe][pg]AB[pc][qc][pd][ne][oe]C[What's the problem here?  Black is getting cut.  What does Black do here?]
+(;B[nc]C[Correct.  Black nets the White stone.])
+(;B[nd]TR[pc][qc][pd]C[Black can't play this way -- the three Black stones will die]
+;W[oc]
+;B[nc]
+;W[ob]
+;B[nb]
+;W[pb]))

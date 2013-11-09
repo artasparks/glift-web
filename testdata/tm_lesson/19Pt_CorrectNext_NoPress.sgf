@@ -1,0 +1,28 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[oc][pe]AB[mc][qd][qg]
+;B[]LB[qe:A]C[Instead of playing at A, White has other options for avoiding the trick.  What are they?]
+(;W[me]
+;B[qe]
+(;W[kd]LB[nd:A]C[Correct.  Although this is classically correct, it is a little thin for my tastes since it leave a weakness open at A.])
+(;W[jd]C[This is too thin.]))
+(;W[md]
+;B[ld]
+(;W[nd]LB[me:A]C[Not quite as good as A.]
+;B[qe]
+;W[lc]
+;B[kc]
+;W[lb]
+;B[kd]
+;W[mb])
+(;W[me]C[Correct])
+(;W[nc]C[Not good for white.]
+;B[me]
+;W[nd]
+;B[qe]
+;W[lc]
+;B[kc]
+;W[mb]
+;B[lb]
+;W[mc]
+;B[kd])))

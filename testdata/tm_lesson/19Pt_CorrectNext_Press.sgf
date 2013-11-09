@@ -1,0 +1,13 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[oc][pe][qe]AB[mc][qd][re][qg]
+;B[]C[Let's go back. At this point, White has not yet been tricked.  What are White's follow ups?]
+(;W[pd]
+;B[rd]
+(;W[jd]C[Correct])
+(;W[og]))
+(;W[ne]
+;B[rc]
+(;W[ld]C[Correct!])
+(;W[og]
+;B[kd]C[This is clearly bad for White.])))

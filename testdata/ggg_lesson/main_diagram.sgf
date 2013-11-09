@@ -1,0 +1,9 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[nc][dd][pd]AB[qf][pj][po][dp]LB[nc:6][dd:4][pd:2][qf:5][pj:7][cn:F][po:3][dp:1][fq:E][jq:D][oq:B][pq:A][qq:C]C[<strong> Stating the Conclusion First </strong>
+
+Now let's return to the original problem diagram. I'll state my conclusions first - to make it easier for you to follow along - but it will take a fair bit of analysis to explain them so please bear with me.
+
+According to classical Go theory, approaching the lower right corner is the biggest move for White now, because it stops Black from finishing a position there by playing A. White's most common move in the corner is also A, though B is often played by people who want to keep the game simple. In my opinion, both <strong> A and B are ineffective in this opening and will make the game uncomfortable for White. </strong>
+
+White C, on the other hand, is a special technique for approaching the 5-4 which is particulrly effective when the opponent builds a formation extending from the 5-4 stone, as Black has done in this game. White D is also a strong move, which calmly gives White a good position while keeping the game simple for now.  White E and F are also interesting moves to experiment with, but we don't have space to discuss them today.])

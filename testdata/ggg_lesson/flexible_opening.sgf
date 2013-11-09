@@ -1,0 +1,13 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[dc][ed][be][df][dp]AB[eb][gc][jc][cd][pd][pp]LB[db:A][eb:9][cc:B][dc:10][gc:11][jc:7][cd:5][ed:4][pd:1][be:8][df:6][pj:C][dp:2][pp:3]C[<strong> Playing a flexible opening </strong>
+
+Before we get caught up in all the variations of the previous problem position, I'd like to show you another opening briefly.  Black's moves in this game are a good demonstration of flexibilty in the opening, as well as another nice technique for managing the 5-4 point.
+
+The moves up to 6, in the diagram above, are all normal and reasonable. Both players are taking big points in the opening.  When White plays the knight's move press at 6, it becomes clear that <strong> White wants Black to take territory in the corner </strong> in exchange for influence over the center and top side of the board.
+
+It would be common for Black to continue playing n the top left, going along with White's plan, However, in this game, Black switches to 7, taking control of the top side before White can.  White's continuation at 8 is natural and Black trades the corer for the top.  Looking at the whole board, Black has quite a nice opening and the top right star point is working well...
+
+... And <strong>White still hasn't taken complete control of the corner</strong>, which is a little bit unsettling. Play won't continue in the top left right now, but Black has potential (aji) in the corer starting with B in the opening diagram.  It's worth noting that Black shouldn't exchange A for B here, because that would help White fix the weakness at B. Also, if White uses sente to play at A now, Black can play C and be satisfied with a fast opening.
+
+This novel opening idea is discussed by Go Seigen in his challenging, but worthwhile book <em>A Way of Play for the 21st Century</em>.])

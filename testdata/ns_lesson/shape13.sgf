@@ -1,0 +1,23 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[kd][ld][md][qe]AB[jc][kc][lc][pc][od]C[Black would really like to connect all his stones.]
+(;B[nb]C[Correct.  This prevents White from disconnecting Black, and it prevents White from connecting on the outside.]
+;W[nd]
+;B[oe]C[White can't connect up on the outside.]
+;W[])
+(;B[of]LB[mc:A]C[If Black here, White will disconnect at A.])
+(;B[pf]LB[mc:A]C[White will just disconnect Black at A, and then it's an ugly fight.])
+(;B[mc]
+;W[nd]C[White can seal balkc in that way]
+;B[nc]
+;W[oe]
+;B[pe]
+;W[pf]
+;B[pd]
+;W[of]C[White has excellent thickness.])
+(;B[nc]C[This doesn't work either.  White can connect on the outside and make a formidable wall.]
+;W[mc]
+;B[mb]
+;W[nd]
+;B[nb]
+;W[oe]))

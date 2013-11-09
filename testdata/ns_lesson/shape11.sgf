@@ -1,0 +1,14 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[oc][pc][qc][qd][qe]AB[nd][pd][pe][qf]C[This is a tricky position.  Black has many cutting points.]
+(;B[nf]LB[nc:B][rf:A][pg:C]C[Correct.  This is a very nice move, since it allows follow-ups at A, B, or C.])
+(;B[nc]LB[od:A][ne:C][oe:B]C[This is dangerous.  White will cut at A.  If Black blocks at B, then White will cut again at C.  Black will have a very hard time defending.]
+;W[od]
+;B[oe]
+;W[ne])
+(;B[of]C[This doesn't work, since White can cut Black.]
+;W[od]
+;B[ne]
+;W[oe]
+;B[pf]
+;W[nf]C[This is hard to defend against.]))

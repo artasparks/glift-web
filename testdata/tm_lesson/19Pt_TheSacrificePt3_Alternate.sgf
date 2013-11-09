@@ -1,0 +1,9 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[oa][nb][ob][pb][qb][oc][od][pe][qe][of][qf][rf][sg]AB[mc][nc][pc][nd][pd][qd][rd][ne][oe][re][qg][rg]LB[sf:A][rg:1][sg:2]C[In response to 1, White can try 2 instead of A.  How does Black respond?]
+;B[pg]
+;W[pf]
+;B[nh]
+;W[rh]
+(;B[qi]LB[nf:C][ri:A][rj:B]C[Correct. White must crawl on the first line.  If White A, then Black B.  If White tries to press up at C, White will find herself with a shortage of liberties.])
+(;B[pi]C[Slack]))

@@ -1,0 +1,26 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[nc][qc][qd][pe][qf]AB[pc][jd][pd][oe][of][pj]TR[nc]C[White already took Black's key point.  How does black defend against this move?  This is probably the most difficult problem here.]
+(;B[pb]
+;W[od]C[What does Black do after this move?]
+;B[nd]
+;W[oc]C[White is losing liberties...]
+;B[mc]
+;W[md]
+(;B[nb]
+;W[ne]
+;B[ob]
+;W[nd]
+(;B[lc]C[Correct!  Black is in an excellent position.])
+(;B[nf]LB[lc:A]C[This is the wrong direction. Black must follow-up at A.])
+(;B[ld]C[Correct.  This is possible with the ladder.]))
+(;B[ne]C[Black can't connect. White will win the capturing race]
+;W[mb]
+;B[lc]
+;W[ob]))
+(;B[nd]LB[pb:A]C[If Black plays here, White can connect under with A.])
+(;B[od]LB[pb:A]C[This isn't ideal.  Black ends up in gote and White gets to play the forcing move at A in sente.  Still, it's probably the second best move.]
+;W[pb]
+;B[ob]
+;W[qb]
+;B[oc]))

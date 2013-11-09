@@ -1,0 +1,40 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[mb][mc][nc][ld][nd][od][pd]AB[nb][ob][lc][oc][pc][qf]C[Black is one move away from being sealed into the corner, dead, or disconnected. How does Black prevent such a fate?]
+(;B[qd]C[Black can't prevent White from causing trouble after this move.  See the 'roadmap' for variations.]
+(;W[qc]
+;B[qb]
+;W[qe]
+;B[rc]
+;W[rd]
+(;B[re]
+;W[qc]
+;B[sd]
+;W[qd]LB[rb:A][rf:B]C[A bad position for Black has cutting points at A and B.])
+(;B[pe]
+;W[qc]C[Very dangerous for Black.]))
+(;W[qe]
+;B[re]
+;W[qc]
+;B[pe]
+;W[qb]))
+(;B[rd]
+(;W[qc]
+(;B[qb]
+;W[rc]
+;B[qd]
+;W[rb]
+(;B[ra]C[Correct.  White's stones are dead in the corner.])
+(;B[sc]LB[pa:B][qa:A]C[Incorrect.  White can play at A and fight a Ko, when Black responds with B.]))
+(;B[qd]LB[qb:A]C[Black cannot play here, or else White wins the corner with A.])
+(;B[rc]LB[qb:A]C[Not good: White will take the corner with A.]))
+(;W[qd]
+(;B[rc]
+;W[qc]
+(;B[rb]C[White takes the corner with A]
+;W[qb])
+(;B[qb]C[Correct.]))
+(;B[qc]LB[re:A]C[White will seal Black in the corner with A.]
+;W[re]
+;B[rc]
+;W[qe]))))

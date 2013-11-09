@@ -1,0 +1,35 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[qb][mc][pc][qd][qe]AB[qc][rc][od][pd]C[Where should Black play?  Black should be careful about not giving White too much.]
+(;B[pb]
+;W[oc]
+(;B[nc]
+;W[ob]
+;B[nb]
+;W[pa]
+(;B[md]LB[rb:A]C[Correct!  White will probably want play A to prevent the Ko, so Black will get sente.])
+(;B[nd]TR[mc]C[This doesn't put enough pressure on the marked stone.]))
+(;B[ob]C[Black gets a very tiny corner and White has an excellent outside.]
+;W[nc]
+;B[rb]
+;W[ne]C[White is very happy with this position.])
+(;B[rb]C[Black can live in the corner, but it has very few points.]
+;W[ob]
+;B[qa]C[Black can ]))
+(;B[ob]C[White won't let Black get very much if Black plays this way]
+(;W[oc]
+;B[nc]
+;W[pb]
+(;B[nd]
+;W[nb]
+;B[mb]
+;W[oa]
+;B[lc]C[White gets a huge corner.])
+(;B[nb]
+;W[nd]
+;B[md]
+;W[ne]
+;B[lc]C[Horrible]))
+(;W[pb]
+;B[oc]
+;W[rb])))

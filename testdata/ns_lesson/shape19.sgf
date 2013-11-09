@@ -1,0 +1,22 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[kb][lb][mb][qb][nc][qc][nd][od][pd][qg]AB[jb][nb][pb][jc][kc][lc][mc][oc][pc]
+(;B[oa]C[Correct.  Black will win the capturing race]
+(;W[qa]
+;B[pa]
+(;W[la]C[White tries to make a Ko...]
+;B[na]C[But Black can just defend this way.])
+(;W[na]
+;B[ma])
+(;W[ma]
+;B[ka]))
+(;W[pa]
+;B[qa]
+;W[ra]
+;B[pa]
+;W[rb]))
+(;B[ma]C[Black loses all his stones this way]
+;W[pa]
+;B[ob]
+(;W[oa])
+(;W[na])))

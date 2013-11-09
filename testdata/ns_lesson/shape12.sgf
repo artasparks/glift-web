@@ -1,0 +1,12 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[nb][ob][oc][qd][oe][pe]AB[nc][md][od][ne]C[This is a hard move if you haven't seen it, and if you have seen it, it's obvious.]
+(;B[lc]LB[mb:A]C[This is the move.  Do you see what I mean?  You either know if or you don't.  It's better than Black at A, since it protects against the peep.  Also, it allows us to make eyes really quickly and easily.
+
+This is one of those shapes you've got to know.])
+(;B[mb]LB[lc:A]C[This isn't a great move, because White gets a free peep at A.]
+;W[lc]
+;B[mc]
+;W[lb]C[White can get another free move]
+;B[ma]
+;W[ic]C[Now Black's stones are very heavy.]))

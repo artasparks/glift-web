@@ -1,0 +1,24 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[kc][qd][qe][qh]AB[qc][od][pd]C[What's the best way for Black to live?  Black many options, but there is one option that is better than the others.]
+(;B[pb]LB[ob:B][rc:A]C[Correct.  This provides Black with excellent eye shape.  It also prevents against White playing A or B.]
+;W[ob]C[Now it's easy to defend against this move.]
+;B[nb]
+;W[nc]
+;B[oc]C[Black is totally safe.])
+(;B[mc]C[This doesn't work, since Whet can come into the corner at A.]
+;W[rc]
+;B[qb]
+;W[rb])
+(;B[rc]C[This looks plausible but...]
+;W[ob]C[White can take away Black's shape quite easily]
+;B[pb]
+;W[oc]
+;B[pc]
+;W[mc]C[Blac])
+(;B[ob]LB[rc:A]C[This doesn't work either:  White will steal the corner with A.]
+;W[rc]
+;B[qb]
+;W[rb])
+(;B[rb]LB[ob:A]C[White will play A and take Black's eye shape.]
+;W[ob]))
