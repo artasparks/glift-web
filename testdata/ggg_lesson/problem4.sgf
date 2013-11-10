@@ -1,0 +1,10 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[dc][ed][be][df]AB[eb][gc][jc][cd]TR[cd]C[How can Black exploit the aji in the corner to escape the marked stone?]
+;B[cc]
+;W[db]
+;B[dd]
+;W[ec]
+(;B[cf]LB[cg:A]C[Correct.  White will probably follow up by playing at A.])
+(;B[fb]LB[ee:A]C[Black doesn't have time to defend. White will fix his weaknesses, for example, by playing at A.]
+;W[ee]))

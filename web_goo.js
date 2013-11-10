@@ -74,9 +74,6 @@ var getContent = function(hash) {
           },{
             url: "testdata/tm_lesson/19pt_obviousnext.sgf",
             initialPosition: "1"
-          },{
-            url: "testdata/tm_lesson/19pt_thetrap.sgf",
-            widgetType: 'EXAMPLE'
           },
           "testdata/tm_lesson/19pt_thesacrifice.sgf",
           "testdata/tm_lesson/19pt_thesacrificept2.sgf",
@@ -125,7 +122,7 @@ var getContent = function(hash) {
         },
         theme: 'DEPTH',
         goBoardBackground: 'images/purty_wood.png',
-        allowWrapAround: true,
+        allowWrapAround: false,
         sgfList: [
           'testdata/ggg_lesson/intro.sgf',
           'testdata/ggg_lesson/intro_pt2.sgf',
@@ -133,13 +130,71 @@ var getContent = function(hash) {
           'testdata/ggg_lesson/flexible_opening_pt2.sgf',
           'testdata/ggg_lesson/main_diagram.sgf',
           'testdata/ggg_lesson/main_diagram_3_4_point.sgf',
-          'testdata/ggg_lesson/main_diagram_3_4_point_pt2.sgf'
+          'testdata/ggg_lesson/main_diagram_3_4_point_pt2.sgf',
+          {
+            url: 'testdata/ggg_lesson/bad_ladder_pt1.sgf',
+            widgetType: 'GAME_VIEWER'
+          },{
+            url: 'testdata/ggg_lesson/no_normal_joseki.sgf',
+            widgetType: 'GAME_VIEWER',
+            initialPosition: '1'
+          },{
+            url: 'testdata/ggg_lesson/approach_at_5_3.sgf',
+            widgetType: 'GAME_VIEWER'
+          },
+          'testdata/ggg_lesson/better_simple_game_pt1.sgf',
+          'testdata/ggg_lesson/better_simple_game_pt2.sgf',
+          {
+            url: 'testdata/ggg_lesson/3_3_invasion.sgf',
+            widgetType: 'GAME_VIEWER'
+            // showVariations: 'ALWAYS'
+          },
+          'testdata/ggg_lesson/junction_between_frameworks.sgf',
+          'testdata/ggg_lesson/problem_intro.sgf',
+          {
+            url: 'testdata/ggg_lesson/problem1.sgf',
+            initialPosition: '1',
+            widgetType: 'CORRECT_VARIATIONS_PROBLEM'
+          }, {
+            url: 'testdata/ggg_lesson/problem2.sgf',
+            initialPosition: '1',
+            widgetType: 'CORRECT_VARIATIONS_PROBLEM'
+          }, {
+            url: 'testdata/ggg_lesson/problem3.sgf',
+            widgetType: 'STANDARD_PROBLEM'
+          }, {
+            url: 'testdata/ggg_lesson/problem4.sgf',
+            widgetType: 'STANDARD_PROBLEM'
+          }, {
+            url: 'testdata/ggg_lesson/problem5.sgf',
+            widgetType: 'STANDARD_PROBLEM'
+          }, {
+            url: 'testdata/ggg_lesson/problem6.sgf',
+            widgetType: 'STANDARD_PROBLEM',
+            initialPosition: 1
+          }, {
+            url: 'testdata/ggg_lesson/problem7.sgf',
+            widgetType: 'STANDARD_PROBLEM',
+            initialPosition: 1
+          }, {
+            url: 'testdata/ggg_lesson/problem8.sgf',
+            widgetType: 'STANDARD_PROBLEM'
+          }, {
+            url: 'testdata/ggg_lesson/problem9.sgf',
+            widgetType: 'STANDARD_PROBLEM',
+            initialPosition: 1
+          }, {
+            url: 'testdata/ggg_lesson/problem10.sgf',
+            widgetType: 'STANDARD_PROBLEM'
+          },
+          'testdata/ggg_lesson/outro.sgf',
         ]
       });
       break;
     case 'NSLesson':
       gliftWidget = glift.widgets.create({
         divId: "glift_display1",
+        allowWrapAround: false,
         sgfDefaults: {
           widgetType: 'STANDARD_PROBLEM',
           problemConditions: {

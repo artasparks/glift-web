@@ -1,0 +1,21 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[nc][dd][pd][oq]AB[qf][pj][po][dp]C[<strong> Trying to keep the game simple </strong>
+
+Often when players are unfamiliar with the 5-4 point, or when they want to avoid immediate fighting, they like te approach from the opposite 3-5 point, as shown in the diagram.
+
+White's move is often good for simplyfying the game, because White makes miai of extending along the bottom or into the corner. Yet, in this opening I don't find the result to be that appealing for White. See the variations for why.
+]
+;B[qq]C[White has two options.]
+(;W[lq]
+;B[jq]LB[ko:A][lo:B]C[This problem is that when Black plays the last move, it works well with the lower left star point and White's group feels constricted.  It helps if you <strong> try to develop an intuitive feel for White's discomfort in positions like this </strong> because it can sharpen your intuition and improve your judgement.
+
+Black can attack White's group at A next, so White should continue with A or B to prevent any immediate complications.
+
+Even though Black's frameworks in the lower left and on the right side look thin, <strong> it's difficult to invade successfully when your own group isn't that strong </strong>.  Black would be happy with White's immediate invasion, because then Black could start a double attack against White's invading stones and the two stones along the bottom. Double attacks are one of the joys of the middle game of Go.])
+(;W[kp]
+;B[iq]LB[lq:A]C[White could improve the situation (compared to playing at A) by playing a three-space extensions to the fourth line, as shown here. Black would still check White, but White has a bit more flexibility now and it's harder to surround White's group in one move. If I were playing White I would tenuki (play elsewhere) after Black 2 and adopt a scorched earth policy on the bottom.
+
+However, playing this way does depend a bit on your style and I still don't think the position is particularly good for White overall.
+
+Playing this shape (a three-space extension from the third line to the fourth) is usually a good way to create flexible group, but <strong>in this case, White's flexibility is reduced slightly because Black is anchored so securely to the lower right corner </strong> at the 3-3 point.]))

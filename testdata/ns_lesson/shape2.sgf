@@ -16,5 +16,5 @@ PW[White]PB[Black]AW[mb][kc][lc][pc][kd][md][qd][qf]AB[nb][mc][oc][ld][od][le]C[
 ;W[mc]
 (;B[of]C[Correct. This is a good follow-up])
 (;B[ne]LB[of:A]C[This is a little slow.  Black can move a little faster by jumping out at A.])
-(;B[nf]C[Correcte. This is also good.]))
+(;B[nf]C[Correct. This is also good.]))
 (;B[ne]C[Gote])))

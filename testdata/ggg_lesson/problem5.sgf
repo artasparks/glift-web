@@ -1,0 +1,25 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[qo][pq]AB[pj][po][np]LB[qo:3][np:2][pq:1]C[In response to 2, White has played 3.  How does Black respond?]
+(;B[qp]
+;W[pp]
+;B[qq]
+;W[qr]
+;B[rr]
+;W[qn]
+;B[pr]
+;W[or]
+;B[qs]
+;W[oo]
+(;B[oq]LB[pn:A]TR[pj]C[Correct.  White must capture at A.  White is not satisfied with this position because the marked stone limits the power of White's ponnuki.]
+;W[pn])
+(;B[op]C[This is a mistake.  ]
+(;W[oq]
+;B[pn]
+;W[no]
+;B[mp]
+;W[pm]C[A horrible position for Black])
+(;W[pn]
+;B[oq]
+;W[po]C[This is like the orginal position, but Black now has an empty triangle.])))
+(;B[pp]C[This is also a joseki move, but Black has an even better option.]))

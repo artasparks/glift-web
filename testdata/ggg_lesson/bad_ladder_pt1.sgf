@@ -1,0 +1,41 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[qn][qo][pp][pq][qr]AB[pj][po][np][qp][qq][rr]LB[pr:A]C[<strong> But why does black let White capture a stone in a ladder? </strong>
+
+White will win the capturing race or find <em> another </em> ladder.  Traverse the variations to see why.
+
+To see the previous variation again, see the variation at A.]
+(;B[oo]
+;W[pr]
+;B[ro]
+;W[rn]
+;B[rs]
+;W[so]
+;B[rq]
+;W[nr]
+;B[mr]
+;W[rp]C[Black will lose the capturing race.])
+(;B[op]
+;W[pr]
+;B[rs]
+;W[ro]
+;B[rq]
+;W[nr]
+;B[mr]
+;W[mq]
+;B[nq]
+;W[oq]
+;B[ns]
+;W[or]
+;B[lq]
+;W[oo]
+;B[pn]
+;W[pm]
+;B[on]
+;W[no]TR[on][pn][po]C[White will ladder the marked stones.])
+(;B[pr]
+;W[or]
+;B[qs]
+;W[oo]
+;B[oq]
+;W[pn]C[This was the previous variation that was shown.]))

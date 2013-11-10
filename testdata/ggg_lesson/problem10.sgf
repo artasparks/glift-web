@@ -1,0 +1,8 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[ck][rm][cn][rn][qo][pp][qq]AB[pj][pn][qn][po][dp][ip][op][oq]LB[en:A]C[Instead of playing at A, White has made a two-space extension.  Where should Black play?]
+(;B[dl]
+;W[cl]
+(;B[dn]C[Correct!  Black's moyo has been greatly expanded.])
+(;B[dk]LB[dm:A]C[Black cannot play this way -- White will push up at A.]))
+(;B[en]C[This move is a little slack.  Black has an even better follow-up.]))

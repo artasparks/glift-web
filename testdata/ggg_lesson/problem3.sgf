@@ -1,0 +1,10 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[ed][df]AB[cd][pd]C[What was one way Black could deal with this situation?  This was a variation proposed by Go Seigen.]
+;B[jc]
+;W[be]
+;B[eb]
+;W[dc]
+(;B[gc]C[Correct.  Black is satisfied with the development on the top.  Plus, there is still aji in the corner.])
+(;B[qf]LB[gc:A]C[White will take a big corner at A.]
+;W[gc]))

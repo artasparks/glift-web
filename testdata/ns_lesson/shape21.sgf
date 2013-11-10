@@ -1,7 +1,7 @@
 (;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
 RU[Japanese]SZ[19]KM[0.00]
 PW[White]PB[Black]AW[jc][oc][pc][md][od]AB[qc][pd][pe][qh]C[What's the shape move?]
-(;B[qb]LB[na:A]C[Correct. This is the key point.  Black can follow-up with a monkey jump at A if White tenukis]
+(;B[qb]LB[na:A]C[Correct. This is the key point.  Black can follow-up with a monkey jump at A if White tenukis.]
 ;W[]C[White plays elsewhere]
 ;B[na]C[How many points will White lose due to the monkey jump.  Answer: a bunch!])
 (;B[pb]LB[ob:A]C[This position leaves more aji behind.  Moreover, it's gote if White decides to play A]

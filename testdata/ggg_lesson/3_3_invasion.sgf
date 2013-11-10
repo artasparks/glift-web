@@ -1,0 +1,27 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[nc][dd][pd][qq]AB[qf][pj][po][dp]C[<strong> Invading at the 3-3 point is a good technique in this type of opening. </strong>
+
+Entering the corner at the 3-3 point is an aggressive strategy, which aims to swiftly take territory while making Black's right side position inefficient.  Look at the variations to see how it works.]
+;B[oq]
+;W[pp]
+;B[op]
+;W[qo]
+;B[qn]
+;W[rn]
+;B[pn]
+;W[rm]LB[pd:B][qf:A][pj:C][sn:E][ip:D]C[The moves up to here are a Joseki, and though there are other ways to play here, <strong> it turns out to be hard for Black to make efficient use of A and C, no matter what Black does. </strong> When White snakes out from the corner with 17 it undermines and ruins Black's right side position. This makes Black's earlier exchanges of A, White B, Black C look questionable.
+
+Next, Black will play at D.  See the variation for details.]
+;B[ip]
+;W[cn]
+;B[cp]
+;W[en]
+;B[fp]
+;W[dj]LB[di:A][en:B][fp:C]C[In compensation, Black does get some influence across the bottom side and in the moves through to here, Black forms a solid territory. On the other hand, White controls three corners and has built a framework on the left side of the Go Board.
+
+When you think about it for a bit, Black's only territory is at the bottom, which nearly all of Black's moves being concentrated there. This isn't particularly efficient, so <strong> White needn't be jealous of this territory and needn't worry about trying to invade it. </strong>
+
+This last move could also be at A.  In this game, Black is very strong at the bottom, so I'd prefer to play a bit more conservatively and make it harder for Black to stir up trouble on the left side.
+
+You may be wondering about White B. Isn't that a weird move? It gives Black territory with Black C, but maybe Black is entitled to that territory?])

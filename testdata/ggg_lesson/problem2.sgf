@@ -1,0 +1,10 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[jq]AB[pj][po][dp]
+;B[hq]C[Black has just approached the White stone from the left.  What are the two options for White that we've discussed?]
+(;W[mq]C[Correct.]
+;B[pq])
+(;W[oq]
+;B[qq]
+(;W[mp]C[Correct.])
+(;W[mq]LB[mp:A]C[White at A is better.  It grabs more territory and helps White get into the center.])))

@@ -1,0 +1,13 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[qo][pp][pq][pr][qr]AB[pj][po][np][qp][qq][rr]LB[pr:A]TR[pj]C[White has just played at A, which is locally a good Joseki.  However, with the marked stone, it's a bad choice.  How does Black punish White?]
+;B[ro]
+;W[qn]
+;B[rn]
+;W[qm]
+;B[oo]
+;W[rs]
+;B[rq]
+;W[mq]
+(;B[pl]C[Correct!  This is a very nice follow-up.  White has no choice but to let the 3 stones go.])
+(;B[rm]C[Black should be more forceful with his attack.  Crawling on the second line is never the way to victory.]))
