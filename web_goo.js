@@ -241,6 +241,8 @@ var getContent = function(hash) {
   }
 }
 
+$('#GliftVersion').text('Version: ' + glift.global.version);
+
 if ("onhashchange" in window) {
   window.onhashchange = function() {
     hashChange();
