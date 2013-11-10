@@ -147,7 +147,6 @@ var getContent = function(hash) {
           {
             url: 'testdata/ggg_lesson/3_3_invasion.sgf',
             widgetType: 'GAME_VIEWER'
-            // showVariations: 'ALWAYS'
           },
           'testdata/ggg_lesson/junction_between_frameworks.sgf',
           'testdata/ggg_lesson/problem_intro.sgf',

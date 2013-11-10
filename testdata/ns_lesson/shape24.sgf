@@ -2,7 +2,7 @@
 RU[Japanese]SZ[19]KM[0.00]
 PW[White]PB[Black]AW[pb][nc][pc][qd][rd]AB[oc][qc][pd][qe]C[This is the last problem, and it's pretty cool.  Where should Black play?]
 (;B[pe]
-(;W[qb]C[Black has a nice forcing move.]
+;W[qb]C[Black has a nice forcing move.]
 (;B[re]
 ;W[rc]
 (;B[ne]C[Correct.  Black has impressive thickness.]
@@ -18,10 +18,6 @@ PW[White]PB[Black]AW[pb][nc][pc][qd][rd]AB[oc][qc][pd][qe]C[This is the last pro
 ;B[mb]
 ;W[lc]))
 (;B[nd]LB[re:A]C[Black should play at A first]))
-(;W[rb]
-;B[ob]
-;W[qb]
-;B[nd]))
 (;B[rb]C[This almost works, but...]
 ;W[re]
 ;B[qf]
