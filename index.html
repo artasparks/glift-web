@@ -68,6 +68,28 @@
       <div class="jumbotron">
         <h2 class='zinline'>Glift:</h2>
         <div class='zinline'> A Responsive Go Library </div>
+        <button type="button" class="btn btn-info fl-right" id='code-button'
+            data-toggle="modal" data-target="#code-modal">
+          <span class="glyphicon glyphicon-edit"></span>Code</button>
+        <!-- Code Modal -->
+        <div class="modal fade" id="code-modal" tabindex="-1" role="dialog" aria-labelledby="CodeModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Javascript for Current Display</h4>
+              </div>
+              <div class="modal-body">
+                <!-- Code is put into the code container with JQuery in web_goo -->
+                <pre id="code-container">
+                </pre>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
         <div id='extra_content'></div>
         <div id='glift_display1'></div>
         <p>

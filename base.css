@@ -23,3 +23,9 @@ body {
 .zinline {
   display: inline;
 }
+
+.fl-right {
+  display: inline;
+  float: right;
+  font-size: .75em;
+}
