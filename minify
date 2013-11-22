@@ -1,0 +1,2 @@
+#!/bin/bash
+${CLOSURE} --js web_goo.js --js_output_file web_goo_min.js

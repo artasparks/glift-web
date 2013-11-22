@@ -2,14 +2,34 @@
 var gliftWidget = undefined;
 var getContent = function(hash) {
   var value = hash;
-  if (hash === undefined) {
-    value = 'ProblemEx'
+  if (hash === undefined || hash === "") {
+    value = 'Home'
   }
   gliftWidget !== undefined && gliftWidget.destroy();
+  $('#glift_display1').html("");
+  $('#extra_content').html("");
   switch(value) {
+    case 'Home':
+      $('#extra_content').append("<p style='font-size:medium'>" +
+        "Glift is a new Javascript library for the game Go, " +
+        "created for desktop and mobile devices.  " +
+        "If you would like to see what Glift is about, " +
+        "check out the examples or the lessons.</p>");
+      gliftWidget = glift.widgets.create({
+        sgf: {
+          sgfString: testdata.sgfs.chenyaoye_tanxiao,
+          widgetType: 'EXAMPLE',
+          icons: [],
+          initialPosition: 50
+        },
+        useCommentBar: false,
+        divId: "glift_display1"
+      });
+      break;
     case 'GameEx':
       gliftWidget = glift.widgets.create({
-        sgf: testdata.gogameguru_commentary,
+        // sgf: testdata.gogameguru_commentary,
+        sgf: 'testdata/gogameguru_commentary.sgf',
         theme: 'DEPTH',
         //goBoardBackground: 'images/bambootile_warm.jpg',
         goBoardBackground: 'images/purty_wood.png',
@@ -46,7 +66,7 @@ var getContent = function(hash) {
           sgfString: testdata.sgfs.marktest,
           icons: []
         },
-        useCommentBar: false,
+        useCommentBar: true,
         theme: 'DEPTH',
         goBoardBackground: 'images/purty_wood.png',
         // goBoardBackground: 'images/bambootile_warm.jpg',
@@ -91,7 +111,7 @@ var getContent = function(hash) {
             widgetType: 'CORRECT_VARIATIONS_PROBLEM'
           },{
             url: "testdata/tm_lesson/19pt_correctnext_press2.sgf",
-            initialPosition: "1",
+            initialPosition: "1"
           },{
             url: "testdata/tm_lesson/19pt_correctnext_nopress.sgf",
             initialPosition: "1",
@@ -186,7 +206,7 @@ var getContent = function(hash) {
             url: 'testdata/ggg_lesson/problem10.sgf',
             widgetType: 'STANDARD_PROBLEM'
           },
-          'testdata/ggg_lesson/outro.sgf',
+          'testdata/ggg_lesson/outro.sgf'
         ]
       });
       break;
@@ -200,7 +220,7 @@ var getContent = function(hash) {
             GB: [],
             C: ['Correct', 'is correct', 'is the correct',
               'very good', 'Very good']
-          },
+          }
         },
         theme: 'DEPTH',
         goBoardBackground: 'images/purty_wood.png',
@@ -259,7 +279,6 @@ if ("onhashchange" in window) {
 
 var hashChange = function(inhash) {
   var hash = inhash || window.location.hash.slice(1);
-  if (hash === undefined || hash === "") hash = "home";
   getContent(hash);
 };
 
@@ -269,4 +288,4 @@ $(window).resize(function() {
   gliftWidget && gliftWidget.draw();
 });
 
-})()
+})();
