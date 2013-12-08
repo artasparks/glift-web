@@ -32,10 +32,8 @@ var getContent = function(hash) {
     case 'GameEx':
       currentCodeFunc = function() {
         gliftWidget = glift.widgets.create({
-          // sgf: testdata.gogameguru_commentary,
           sgf: 'testdata/gogameguru_commentary.sgf',
           theme: 'DEPTH',
-          //goBoardBackground: 'images/bambootile_warm.jpg',
           goBoardBackground: 'images/purty_wood.png',
           divId: "glift_display1"
         });
@@ -168,20 +166,20 @@ var getContent = function(hash) {
             'testdata/ggg_lesson/main_diagram_3_4_point_pt2.sgf',
             {
               url: 'testdata/ggg_lesson/bad_ladder_pt1.sgf',
-              widgetType: 'GAME_VIEWER'
+              widgetType: 'REDUCED_GAME_VIEWER'
             },{
               url: 'testdata/ggg_lesson/no_normal_joseki.sgf',
-              widgetType: 'GAME_VIEWER',
+              widgetType: 'REDUCED_GAME_VIEWER',
               initialPosition: '1'
             },{
               url: 'testdata/ggg_lesson/approach_at_5_3.sgf',
-              widgetType: 'GAME_VIEWER'
+              widgetType: 'REDUCED_GAME_VIEWER'
             },
             'testdata/ggg_lesson/better_simple_game_pt1.sgf',
             'testdata/ggg_lesson/better_simple_game_pt2.sgf',
             {
               url: 'testdata/ggg_lesson/3_3_invasion.sgf',
-              widgetType: 'GAME_VIEWER'
+              widgetType: 'REDUCED_GAME_VIEWER'
             },
             'testdata/ggg_lesson/junction_between_frameworks.sgf',
             'testdata/ggg_lesson/problem_intro.sgf',
