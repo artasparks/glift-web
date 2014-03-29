@@ -17,31 +17,35 @@ var getContent = function(hash) {
         "If you would like to see what Glift is about, " +
         "check out the examples or the lessons.</p>");
       currentCodeFunc = function() {
-        gliftWidget = glift.widgets.create({
+        gliftWidget = glift.create({
+          divId: "glift_display1",
           sgf: {
             sgfString: "(;FF[4]GM[1]SZ[19]CA[UTF-8]SO[Glift]EV[]PB[Chen Yaoye]BR[9p]PW[Tan Xiao]WR[7p]KM[7.5]DT[2013-11-18]RE[B+0.5];B[qd];W[dc];B[pq];W[dq];B[nc];W[co];B[qk];W[jp];B[de];W[cg];B[cc];W[gl];B[dd];W[db];B[fd];W[hc];B[cf];W[dh];B[cb];W[mp];B[po];W[kc];B[dk];W[bf];B[be];W[df];B[ce];W[dm];B[fk];W[gh];B[hk];W[gn];B[hq];W[jq];B[eq];W[dr];B[io];W[im];B[jo];W[ko];B[jm];W[jn];B[in];W[kn];B[hm];W[il];B[hl];W[od];B[jk];W[oc])",
             widgetType: 'EXAMPLE',
             icons: [],
             initialPosition: 50
           },
-          useCommentBar: false,
-          divId: "glift_display1"
+          display: {
+            useCommentBar: false
+          }
         });
       }
       break;
     case 'GameEx':
       currentCodeFunc = function() {
-        gliftWidget = glift.widgets.create({
+        gliftWidget = glift.create({
           sgf: 'testdata/gogameguru_commentary.sgf',
-          theme: 'DEPTH',
-          goBoardBackground: 'images/purty_wood.png',
-          divId: "glift_display1"
+          divId: "glift_display1",
+          display: {
+            theme: 'DEPTH',
+            goBoardBackground: 'images/purty_wood.png'
+          }
         });
       };
       break;
     case 'ProblemEx':
       currentCodeFunc = function() {
-        gliftWidget = glift.widgets.create({
+        gliftWidget = glift.create({
           sgfList: [
               testdata.sgfs.complexproblem,
               testdata.sgfs.realproblem
@@ -50,18 +54,30 @@ var getContent = function(hash) {
             widgetType: 'STANDARD_PROBLEM'
           },
           divId: "glift_display1",
-          theme: 'DEPTH',
-          goBoardBackground: 'images/purty_wood.png'
+          display: {
+            theme: 'DEPTH',
+            goBoardBackground: 'images/purty_wood.png'
+          }
         });
       };
       break;
     case 'ProblemEx2':
       currentCodeFunc = function() {
-        gliftWidget = glift.widgets.create({
+        gliftWidget = glift.create({
           sgf: {
             sgfString: testdata.sgfs.gogameguru_hard,
-            widgetType: 'STANDARD_PROBLEM',
-            icons: ['refresh', 'roadmap', 'checkbox']
+            widgetType: 'STANDARD_PROBLEM'
+          },
+          divId: "glift_display1"
+        });
+      };
+      break;
+    case 'BoardEditorEx':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          sgf: {
+            sgfString: '',
+            widgetType: 'BOARD_EDITOR'
           },
           divId: "glift_display1"
         });
@@ -69,21 +85,23 @@ var getContent = function(hash) {
       break;
     case 'MarksEx':
       currentCodeFunc = function() {
-        gliftWidget = glift.widgets.create({
+        gliftWidget = glift.create({
           sgf: {
             sgfString: testdata.sgfs.marktest,
             icons: []
           },
           useCommentBar: true,
-          theme: 'DEPTH',
-          goBoardBackground: 'images/purty_wood.png',
+          display: {
+            theme: 'DEPTH',
+            goBoardBackground: 'images/purty_wood.png'
+          },
           divId: "glift_display1"
         });
       };
       break;
     case 'Kogos':
       currentCodeFunc = function() {
-        gliftWidget = glift.widgets.create({
+        gliftWidget = glift.create({
           sgf: 'testdata/Kogos.sgf',
           divId: "glift_display1"
         });
@@ -91,7 +109,7 @@ var getContent = function(hash) {
       break;
     case 'TMLesson':
       currentCodeFunc = function() {
-        gliftWidget = glift.widgets.create({
+        gliftWidget = glift.create({
           divId: "glift_display1",
           sgfList: [{
               url: "testdata/tm_lesson/19pt_1.sgf",
@@ -141,21 +159,25 @@ var getContent = function(hash) {
           sgfDefaults: {
             widgetType: 'STANDARD_PROBLEM'
           },
-          theme: 'DEPTH',
-          goBoardBackground: 'images/purty_wood.png'
+          display: {
+            theme: 'DEPTH',
+            goBoardBackground: 'images/purty_wood.png'
+          }
         });
       };
       break;
     case 'GGGLesson':
       currentCodeFunc = function() {
-        gliftWidget = glift.widgets.create({
+        gliftWidget = glift.create({
           divId: "glift_display1",
+          allowWrapAround: false,
           sgfDefaults: {
             widgetType: 'EXAMPLE'
           },
-          theme: 'DEPTH',
-          goBoardBackground: 'images/purty_wood.png',
-          allowWrapAround: false,
+          display: {
+            theme: 'DEPTH',
+            goBoardBackground: 'images/purty_wood.png',
+          },
           sgfList: [
             'testdata/ggg_lesson/intro.sgf',
             'testdata/ggg_lesson/intro_pt2.sgf',
@@ -226,7 +248,7 @@ var getContent = function(hash) {
       break;
     case 'NSLesson':
       currentCodeFunc = function() {
-        gliftWidget = glift.widgets.create({
+        gliftWidget = glift.create({
           divId: "glift_display1",
           allowWrapAround: false,
           sgfDefaults: {
@@ -237,8 +259,10 @@ var getContent = function(hash) {
                 'very good', 'Very good']
             }
           },
-          theme: 'DEPTH',
-          goBoardBackground: 'images/purty_wood.png',
+          display: {
+            theme: 'DEPTH',
+            goBoardBackground: 'images/purty_wood.png'
+          },
           sgfList: [
             {
               url: 'testdata/ns_lesson/shape_workshop_intro.sgf',
@@ -269,6 +293,137 @@ var getContent = function(hash) {
             'testdata/ns_lesson/shape23.sgf',
             'testdata/ns_lesson/shape24.sgf'
           ]
+        });
+      };
+      break;
+    case 'YounggilLesson':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          divId: "glift_display1",
+          allowWrapAround: true,
+          sgfDefaults: {
+            widgetType: 'EXAMPLE',
+            problemConditions: {
+              GB: [],
+              C: ['Correct', 'is correct', 'is the correct',
+                'very good', 'Very good']
+            }
+          },
+          display: {
+            theme: 'DEPTH',
+            goBoardBackground: 'images/purty_wood.png'
+          },
+          sgfList: [{
+            url: 'testdata/younggil_lesson/younggil-game.sgf'
+          },{
+            url: 'testdata/younggil_lesson/younggil-game-nocomments.sgf',
+            widgetType: 'GAME_VIEWER'
+          },{
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: 180
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: 12,
+            showVariations: 'NEVER'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '11.1+'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '26'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '20'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '12.1+'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '37.1'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '37.1-49'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '37.1+'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '49.1'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '77.1'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '77.2'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '77.2+'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '78'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '85',
+            showVariations: 'NEVER'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '84.1',
+            showVariations: 'NEVER'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '84.1.1',
+            showVariations: 'NEVER'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '84.1.0',
+            showVariations: 'NEVER'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '84.1.2'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '84.1.2.0'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '84.1.2.0.0'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '84.1.2.1+'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '87'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '92'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '85.1'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '85.1-88'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '85.1-92',
+            showVariations: 'NEVER'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '85.1-95',
+            showVariations: 'NEVER'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '85.1+',
+            showVariations: 'NEVER'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '85.1-92.1',
+            showVariations: 'NEVER'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '123'
+          }, {
+            url: 'testdata/younggil_lesson/younggil-game.sgf',
+            initialPosition: '140'
+          }]
         });
       };
       break;

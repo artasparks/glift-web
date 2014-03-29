@@ -1,0 +1,448 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]HA[5]KM[0.50]TM[1800]OT[3x30 byo-yomi]
+GN[Younggil Game Review]PW[Younggil]PB[Kashomon]WR[8p]BR[1k]DT[2014-01-24]PC[The KGS Go Server at http://www.gokgs.com/]AB[dd][pd][jj][dp][pp]C[This is 5 stone handicap teaching game that I (Josh Hoak) played with Younggil An 8p, of GoGameGuru.]RE[B+Resign]
+;W[nq]WL[1794.718]C[Younggil: have a good game! 
+Josh: Thanks, you too.]
+;B[pn]BL[1781.529]
+;W[fq]WL[1790.848]
+;B[dn]BL[1747.714]
+;W[jp]WL[1786.748]
+;B[jd]BL[1740.753]
+;W[ql]WL[1774.374]
+;B[qi]BL[1737.973]
+;W[ol]WL[1770.034]
+;B[nn]BL[1735.144]
+;W[np]WL[1750.533]
+(;B[qn]BL[1722.763]LB[qi:2][ol:3][ql:1][nn:4][qn:6][np:5]C[Younggil: The pincer at 2 and the jump at 4 were good.  Have you already learned about these?
+
+Josh: I don't know about my move at 6, but I know that 1 to 4 form a classical joseki.
+
+Younggil: That's right.]
+(;W[pf]WL[1743.224]
+;B[oi]BL[1693.481]C[Younggil: It was a good choice to jump here
+]
+;W[nd]WL[1729.836]
+;B[oe]BL[1691.574]
+;W[qc]WL[1724.873]
+;B[qd]BL[1685.069]
+;W[pc]WL[1719.614]C[Younggil [8p\]: but normally, this move is right
+Younggil [8p\]: especially, when white's move
+Younggil [8p\]: but in the game
+]
+(;B[od]BL[1665.75]LB[od:A][ne:B]C[Josh: I wasn't sure about this move. Is this correct?
+
+Younggil: Did you consider of any other moves?
+
+Josh: I considered playing at B instead of A, but then white gets to take A.
+
+Younggil: A is correct. But in this case, you can also push at B.]
+;W[oc]WL[1714.223]
+;B[ne]BL[1664.416]
+;W[md]WL[1693.771]
+;B[me]BL[1660.292]
+;W[ld]WL[1682.422]
+;B[le]BL[1657.438]C[Younggil: The opening up to here was perfect. do you normally play solidly like this in even games?  It's a very good idea to play simply and solidly in handicap games.
+
+Josh: No, but It's something I've been trying to do more.  I fight all the time, and playing a bit solidly in the beginning seems to help.
+
+Younggil: Right. You seem to like attacking and fighting.]
+;W[pj]WL[1675.333]
+;B[pi]BL[1646.27]
+;W[ml]WL[1669.455]
+;B[ln]BL[1642.788]
+;W[qq]WL[1662.388]
+;B[pq]BL[1636.646]
+;W[pr]WL[1640.013]
+;B[or]BL[1616.317]
+;W[qr]WL[1625.751]
+;B[oq]BL[1611.749]
+;W[nr]WL[1613.223]
+(;B[qp]BL[1578.229]
+;W[os]WL[1604.834]
+;B[km]BL[1574.608]
+;W[qj]WL[1595.565]
+;B[rk]BL[1563.975]
+;W[rj]WL[1571.66]
+;B[ri]BL[1547.514]
+;W[mj]WL[1563.665]
+;B[oj]BL[1539.061]
+;W[mm]WL[1543.869]
+;B[mn]BL[1529.975]
+;W[om]WL[1536.83]
+(;B[pk]BL[1470.045]C[Josh: I see
+]
+;W[qk]WL[1531.897]
+;B[ok]BL[1468.425]
+;W[qm]WL[1526.963]
+;B[on]BL[1455.333]
+;W[kk]WL[1511.67]
+;B[jk]BL[1444.615]
+;W[kl]WL[1509.12]
+;B[jl]BL[1440.815]
+;W[lm]WL[1505.234]
+;B[kn]BL[1394.526]
+;W[in]WL[1495.045]
+;B[lp]BL[1388.774]
+;W[lq]WL[1486.585]C[Younggil [8p\]: it's still alright 
+Younggil [8p\]: solid and safe
+]
+;B[im]BL[1371.806]
+;W[jn]WL[1471.026]
+;B[jm]BL[1369.546]
+;W[ci]WL[1456.019]
+;B[ck]BL[1364.892]
+;W[cf]WL[1452.527]
+;B[ce]BL[1359.821]
+;W[df]WL[1445.47]
+;B[fd]BL[1358.439]
+;W[ei]WL[1415.96]
+;B[kq]BL[1286.569]
+;W[kp]WL[1410.655]
+;B[dr]BL[1170.631]
+;W[cc]WL[1386.485]
+(;B[be]BL[1164.305]C[Younggil: Anyway, answering here was good.]
+;W[ec]WL[1368.838]
+;B[ed]BL[1160.816]
+;W[fc]WL[1365.396]
+(;B[gc]BL[1157.894]
+;W[gb]WL[1357.858]
+;B[hc]BL[1123.686]
+(;W[bb]WL[1300.159]LB[bb:A]C[Josh: If White doesn't play A, how does Black play?
+
+]
+(;B[bg]BL[1117.079]
+;W[bf]WL[1291.759]C[Josh: I played on the second line to attack this group, but that didn't seem very good.  Was there a better way to attack?]
+;B[af]BL[1113.734]
+;W[bh]WL[1287.694]
+;B[cg]BL[1109.874]
+;W[dg]WL[1263.064]
+;B[ch]BL[1035.936]C[Younggil: You didn't need to attack this group because there was an easier way to maintain your leading.]
+;W[dh]WL[1258.966]
+;B[ag]BL[1034.74]
+;W[dk]WL[1242.729]
+;B[cj]BL[1031.962]
+;W[dj]WL[1230.078]
+;B[cl]BL[1021.465]
+;W[bj]WL[1216.864]
+;B[fh]BL[976.086]
+;W[dl]WL[1193.456]
+;B[dm]BL[974.737]
+;W[cm]WL[1166.759]
+;B[bm]BL[967.431]
+;W[bl]WL[1161.301]
+;B[cn]BL[965.929]
+;W[bk]WL[1126.017]
+;B[cm]BL[960.662]
+;W[fi]WL[1113.302]
+;B[gh]BL[953.51]
+;W[gi]WL[1109.063]
+;B[fk]BL[935.668]
+;W[hh]WL[1103.007]
+;B[hg]BL[927.057]
+;W[gk]WL[1094.591]
+;B[fl]BL[924.088]
+;W[fj]WL[1078.573]
+;B[hi]BL[864.851]
+;W[hj]WL[1071.76]
+;B[ih]BL[861.547]
+;W[eq]WL[1057.385]
+;B[ah]BL[830.015]
+;W[bi]WL[1053.297]C[Younggil: Anyway, the game was still going alright.
+]
+;B[dq]BL[824.481]
+(;W[gn]WL[994.978]C[Kashomon [1k\]: I see
+Younggil [8p\]: that's why I played here
+]
+(;B[mi]BL[738.614]
+;W[li]WL[973.761]
+;B[lh]BL[725.016]
+;W[hb]WL[937.431]
+;B[kd]BL[718.95]
+;W[rd]WL[931.868]
+;B[re]BL[716.12]
+;W[rc]WL[930.652]
+;B[qf]BL[706.269]
+;W[er]WL[922.624]
+;B[mq]BL[701.388]
+;W[lr]WL[918.081]
+;B[lc]BL[676.037]
+;W[mb]WL[911.03]
+;B[lb]BL[595.261]C[Younggil: The game's over now.]
+;W[mc]WL[908.09]
+(;B[ma]BL[517.88]
+;W[na]WL[905.238]
+;B[la]BL[503.121]
+;W[jb]WL[888.748]
+;B[jc]BL[498.886]
+;W[nb]WL[881.493]
+;B[lj]BL[483.057]
+;W[lk]WL[874.211]
+;B[ki]BL[479.872]
+;W[ff]WL[865.945]
+;B[gf]BL[477.284]
+;W[hm]WL[854.541]
+;B[fn]BL[470.459]
+;W[fo]WL[850.207]
+;B[fm]BL[451.639]
+;W[ds]WL[846.098]
+;B[cs]BL[448.794]
+;W[es]WL[844.625]
+;B[br]BL[443.919]
+;W[lo]WL[834.947]
+;B[hl]BL[440.078]
+;W[ek]WL[819.947]
+;B[sj]BL[420.668]
+;W[rl]WL[816.827]
+;B[sk]BL[415.19]
+;W[sl]WL[814.729]
+;B[si]BL[413.191]
+;W[rn]WL[813.279]
+;B[ro]BL[411.365]
+;W[sn]WL[811.944]
+;B[rq]BL[409.833]
+;W[rr]WL[808.176]
+;B[sr]BL[406.02]
+;W[ps]WL[800.303]
+;B[eo]BL[399.758]
+;W[fp]WL[796.043]
+;B[fe]BL[395.387]
+;W[ib]WL[774.175]
+;B[ic]BL[391.89]C[Younggil: Who's winning now?
+
+Josh: I think I am.
+
+Younggil: Yes.  By how many points?
+
+Josh: My counting's not very good, but I counted 5 points.
+
+Younggil: Yes, that's right.  Shall we review from the beginning?])
+(;B[hm]C[Younggil [8p\]: how about here anyway? 
+Younggil [8p\]: did you think about playing here?
+Younggil [8p\]: to threat white's left side group?
+Kashomon [1k\]: No -- not at all. I think I had forgotten about the left group
+Younggil [8p\]: i see
+Younggil [8p\]: that's alright, if you still thought you were winning
+Younggil [8p\]: but if you thought the game was close or behind 
+Younggil [8p\]: you could think aout that 
+Younggil [8p\]: it was a very good game for you! 
+Kashomon [1k\]: thanks
+Younggil [8p\]: any questions about the game? 
+Kashomon [1k\]: hm. Yes. Can I take the control for a sec?
+Younggil [8p\]: sure
+]))
+(;B[hm]C[Kashomon [1k\]: I'm surprised you played at g6
+Younggil [8p\]: did you think about playing here?
+Younggil [8p\]: oh why?
+Kashomon [1k\]: I thought that U12 would have been bigger
+Kashomon [1k\]: I mean
+Kashomon [1k\]: N12
+]))
+(;W[mh]C[Younggil [8p\]: i see
+Younggil [8p\]: then where'd you play?
+Younggil [8p\]: you can click on the board
+Kashomon [1k\]: Hm...
+Kashomon [1k\]: I don't know
+Younggil [8p\]: maybe at the bottom area?
+Younggil [8p\]: white's weakness is there
+Kashomon [1k\]: Ah -- I had been thinking about that too
+]
+(;B[mi]C[Younggil [8p\]: oh
+])
+(;B[hq]C[Younggil [8p\]: good idea
+]
+;W[gp]
+;B[lr]
+;W[mq]
+;B[jq]LB[ek:C][gn:A][hn:B]C[Younggil [8p\]: it'd be troublesome for white
+Younggil [8p\]: and A and B are about sente because of C
+])))
+(;B[eg]C[Younggil: For attacking, how about this?
+]
+;W[dh]
+;B[gh]LB[hq:A]TR[bg][bh][bi][bj]C[Younggil: And then something like this.
+
+Josh: I see.
+
+Younggil: Black can play like this because the 2nd line isn't that important.  However, A is more important and urgent than attacking this group.]
+;W[dk]
+;B[cl]
+;W[cj]
+;B[hq]C[Younggil: It's very hard for White to answer well.
+
+Josh: How would you have responded to this move?]
+(;W[eq]
+;B[dq]
+;W[hp]LB[hp:3][dq:2][eq:1]C[Younggil: Maybe like this.]
+;B[lr]
+;W[mq]
+;B[jq]LB[jq:3][mq:2][lr:1]C[Younggil: But White's in in deep trouble.
+])
+(;W[iq]C[Younggil: If it's an even game, the right move should be here, but it's too easy for Black.]
+;B[hp]
+;W[hn]
+(;B[go]C[Younggil [8p\]: but it's too easy for black
+])
+(;B[ir]
+;W[jr]
+;B[ip]
+;W[jq]
+;B[fp]LB[jo:A]C[Younggil [8p\]: A is still available later 
+Kashomon [1k\]: that makes sense
+]))))
+(;W[]C[Younggil: Where does Black play? There's a vital point.]
+(;B[bc]LB[bb:A]C[Josh: Hm. How about here?
+
+Younggil: Then White can block at A and live.  There's a better move for Black.
+]
+;W[bb]C[Younggil [8p\]: white can live
+])
+(;B[cb]LB[bb:A]C[Josh: How about here?
+
+Younggil: White will hane at A and live in the corner in sente.]
+(;W[dc]
+;B[bc]C[Younggil [8p\]: then white can hane at B18
+]
+;W[bb]C[Kashomon [1k\]: here?
+])
+(;W[bb]C[Younggil [8p\]: here now
+]
+;B[dc]
+;W[db]
+;B[eb]
+;W[ca]
+;B[fb]C[Younggil [8p\]: then will you be happy with this?
+Kashomon [1k\]: no. This is gote and white still lives
+Younggil [8p\]: yes right
+]))
+(;B[bb]C[Josh: It must be here!]
+;W[bc]C[Younggil: And now?
+]
+;B[dc]C[Younggil: Yes, right! 
+]
+;W[db]
+;B[cb]C[Younggil [8p\]: white's in trouble
+]
+;W[eb]C[Younggil [8p\]: maybe just capture the corner
+]
+;B[ac]C[Younggil [8p\]: and white should live with two eyes
+]
+;W[hb]
+(;B[ic]
+;W[fa]LB[fa:10][bb:1][cb:5][db:4][eb:6][hb:8][ac:7][bc:2][dc:3][ic:9]C[Younggil: Already good enough for black. What do you think?
+])
+(;B[ib]
+;W[fa]
+;B[ha]
+;W[da]C[Younggil [8p\]: or like this
+Kashomon [1k\]: yes -- much better for black
+Younggil [8p\]: because black's already alive
+Younggil [8p\]: yes
+Younggil [8p\]: that's why white answered
+Younggil [8p\]: or
+]))))
+(;B[dc]
+;W[db]
+;B[gc]
+;W[gb]
+;B[cb]C[Younggil [8p\]: you could also cut, but the actual game was better
+Younggil [8p\]: because the corner in this game isn't that big
+]
+;W[eb]
+;B[bc]
+;W[hc]
+;B[gd]
+(;W[jc])
+(;W[kd]
+;B[ke]
+;W[jc]C[Younggil [8p\]: white's happy with this
+])))
+(;B[dc]C[Younggil: Would you play here? 
+
+Josh: No, it feels too easy on White
+
+Younggil: Yes, right.])
+(;B[cd]TR[cf][df][ci][ei]C[Younggil: Do you sometimes play here then? It's more common as an answer against the 3-3 invasion.
+
+Josh: I don't play here very often
+
+Younggil: When this marked group is already quite safe, you can answer here.
+]
+;W[ec]
+;B[dc]
+;W[db]
+;B[cb]
+;W[fb]
+;B[ed]
+;W[hc]LB[cb:6][db:5][fb:7][cc:1][dc:4][ec:3][hc:9][cd:2][ed:8]C[Josh: After the review, I looked at a several of pro games involving this position.  This is one possible variation.]))
+(;B[no]C[Younggil: You should answer here. Then white would have had to live in gote and then the game would have been even easier for you! ]))
+(;B[os]LB[oo:A][ro:B][qp:C]C[Younggil: What happens if you play here instead of at C?
+
+Josh: Let's see... I was worried about White at A.
+
+Younggil: I see. There're three options for white.]
+;W[oo]
+;B[on]
+;W[po]
+;B[qp]
+;W[qo]
+;B[ro]
+;W[rn]
+;B[rq]
+;W[so]
+;B[rp]
+;W[rm]LB[rm:11][on:2][rn:7][oo:1][po:3][qo:5][ro:6][so:9][qp:4][rp:10][rq:8]C[Younggil: Like this?
+
+Josh: Right.
+]
+;B[lp]
+;W[lq]
+;B[jn]LB[jn:2][lp:1][lq:3]C[Younggil: It's still alright, but the actual game was safer, so it was a good choice too.
+]))
+(;AE[pf]AW[qf]LB[od:A]C[Younggil: When white's stone is on 3rd line, you have to play an A first.]
+;B[ne]
+;W[od]C[Younggil [8p\]: otherwise, this move is good
+Kashomon [1k\]: yes
+]
+;B[pe]LB[rc:3][rd:1][qe:4][re:2]C[Younggil: This is bad shape for black because White has the nice jose of playing 1 to 4 in sente.
+])
+(;B[ne]LB[od:A]C[Kashomon [1k\]: So why doesn't white just play at P16 right now?
+Younggil [8p\]: now?
+]
+(;W[md]
+;B[me]
+;W[ld]
+;B[le]LB[pf:A][qf:B]C[Younggil [8p\]: it's still alright
+Younggil [8p\]: maybe better not to exchange :)
+Younggil [8p\]: when the stone A is at B, it's necessary, but not in this game
+Younggil [8p\]: does it make sense?
+Kashomon [1k\]: Hm
+])
+(;W[od]
+;B[pe]
+;W[md]
+;B[me]
+;W[ld]
+;B[le]
+;W[rd]
+;B[re]
+;W[rc]C[Kashomon [1k\]: ah
+Younggil [8p\]: then this endgame isn't sente anymore
+Kashomon [1k\]: Ok, that makes sense
+Younggil [8p\]: good ^^
+Younggil [8p\]: any other questions?
+Kashomon [1k\]: One more question: Was there a better way to attach the stones on the left
+Kashomon [1k\]: *attack
+Younggil [8p\]: yea 
+])))
+(;W[qf]
+;B[oi]
+;W[nd]
+;B[oe]
+;W[qc]
+;B[qd]
+;W[pc]
+;B[ne]
+;W[od]LB[rd:B][pe:A]C[Younggil: This is bad shape for Black. After Black connects at A, White's jose move at A is sente.]))
+(;B[qm]
+;W[rk]
+;B[rm]LB[rk:2][qm:1][rm:3]C[Younggil: This is also possible]))
