@@ -1,0 +1,30 @@
+[
+  {
+    "url": "testdata/ns_lesson/shape_workshop_intro.sgf",
+    "widgetType": "EXAMPLE"
+  },
+  "testdata/ns_lesson/shape1.sgf",
+  "testdata/ns_lesson/shape2.sgf",
+  "testdata/ns_lesson/shape3.sgf",
+  "testdata/ns_lesson/shape4.sgf",
+  "testdata/ns_lesson/shape5.sgf",
+  "testdata/ns_lesson/shape6.sgf",
+  "testdata/ns_lesson/shape7.sgf",
+  "testdata/ns_lesson/shape8.sgf",
+  "testdata/ns_lesson/shape9.sgf",
+  "testdata/ns_lesson/shape10.sgf",
+  "testdata/ns_lesson/shape11.sgf",
+  "testdata/ns_lesson/shape12.sgf",
+  "testdata/ns_lesson/shape13.sgf",
+  "testdata/ns_lesson/shape14.sgf",
+  "testdata/ns_lesson/shape15.sgf",
+  "testdata/ns_lesson/shape16.sgf",
+  "testdata/ns_lesson/shape17.sgf",
+  "testdata/ns_lesson/shape18.sgf",
+  "testdata/ns_lesson/shape19.sgf",
+  "testdata/ns_lesson/shape20.sgf",
+  "testdata/ns_lesson/shape21.sgf",
+  "testdata/ns_lesson/shape22.sgf",
+  "testdata/ns_lesson/shape23.sgf",
+  "testdata/ns_lesson/shape24.sgf"
+]

@@ -44,7 +44,7 @@ var getContent = function(hash) {
     case 'ProblemEx':
       currentCodeFunc = function() {
         gliftWidget = glift.create({
-          sgfList: [
+          sgfCollection: [
               testdata.sgfs.complexproblem,
               testdata.sgfs.realproblem
           ],
@@ -108,7 +108,7 @@ var getContent = function(hash) {
       currentCodeFunc = function() {
         gliftWidget = glift.create({
           divId: "glift_display1",
-          sgfList: [{
+          sgfCollection: [{
               url: "testdata/tm_lesson/19pt_1.sgf",
               widgetType: 'EXAMPLE'
             },{
@@ -175,7 +175,7 @@ var getContent = function(hash) {
             theme: 'DEPTH',
             goBoardBackground: 'images/purty_wood.png',
           },
-          sgfList: [
+          sgfCollection: [
             'testdata/ggg_lesson/intro.sgf',
             'testdata/ggg_lesson/intro_pt2.sgf',
             'testdata/ggg_lesson/flexible_opening.sgf',
@@ -260,36 +260,7 @@ var getContent = function(hash) {
             theme: 'DEPTH',
             goBoardBackground: 'images/purty_wood.png'
           },
-          sgfList: [
-            {
-              url: 'testdata/ns_lesson/shape_workshop_intro.sgf',
-              widgetType: 'EXAMPLE'
-            },
-            'testdata/ns_lesson/shape1.sgf',
-            'testdata/ns_lesson/shape2.sgf',
-            'testdata/ns_lesson/shape3.sgf',
-            'testdata/ns_lesson/shape4.sgf',
-            'testdata/ns_lesson/shape5.sgf',
-            'testdata/ns_lesson/shape6.sgf',
-            'testdata/ns_lesson/shape7.sgf',
-            'testdata/ns_lesson/shape8.sgf',
-            'testdata/ns_lesson/shape9.sgf',
-            'testdata/ns_lesson/shape10.sgf',
-            'testdata/ns_lesson/shape11.sgf',
-            'testdata/ns_lesson/shape12.sgf',
-            'testdata/ns_lesson/shape13.sgf',
-            'testdata/ns_lesson/shape14.sgf',
-            'testdata/ns_lesson/shape15.sgf',
-            'testdata/ns_lesson/shape16.sgf',
-            'testdata/ns_lesson/shape17.sgf',
-            'testdata/ns_lesson/shape18.sgf',
-            'testdata/ns_lesson/shape19.sgf',
-            'testdata/ns_lesson/shape20.sgf',
-            'testdata/ns_lesson/shape21.sgf',
-            'testdata/ns_lesson/shape22.sgf',
-            'testdata/ns_lesson/shape23.sgf',
-            'testdata/ns_lesson/shape24.sgf'
-          ]
+          sgfCollection: 'testdata/ns_lesson.json'
         });
       };
       break;
@@ -310,7 +281,7 @@ var getContent = function(hash) {
             theme: 'DEPTH',
             goBoardBackground: 'images/purty_wood.png'
           },
-          sgfList: [{
+          sgfCollection: [{
             url: 'testdata/younggil_lesson/younggil-game.sgf'
           },{
             url: 'testdata/younggil_lesson/younggil-game-nocomments.sgf',
@@ -465,4 +436,5 @@ $('#code-button').click(function() {
   $('#code-container').html(funcString);
 });
 
+window.gliftWidget = gliftWidget;
 })();
