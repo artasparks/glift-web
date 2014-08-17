@@ -70,6 +70,35 @@ var getContent = function(hash) {
         });
       };
       break;
+    case 'BoardCoordsEx':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          sgfCollection: [{
+            sgfString: '',
+            boardRegion: 'ALL'
+          },{
+            sgfString: '',
+            boardRegion: 'TOP'
+          },{
+            sgfString: '',
+            boardRegion: 'TOP_RIGHT'
+          },{
+            sgfString: '',
+            boardRegion: 'BOTTOM_LEFT'
+          },{
+            sgfString: '',
+            boardRegion: 'LEFT'
+          }],
+          divId: 'glift_display1',
+          sgfDefaults: {
+            widgetType: 'EXAMPLE'
+          },
+          display: {
+            drawBoardCoords: true
+          }
+        });
+      };
+      break;
     case 'BoardEditorEx':
       currentCodeFunc = function() {
         gliftWidget = glift.create({
