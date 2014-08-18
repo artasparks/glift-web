@@ -424,6 +424,72 @@ var getContent = function(hash) {
         });
       };
       break;
+    case 'DefaultTheme':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          sgf: 'testdata/gogameguru_commentary.sgf',
+          divId: "glift_display1",
+          display: { theme: 'DEFAULT' }
+        });
+      };
+      break;
+    case 'DepthTheme':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          sgf: 'testdata/gogameguru_commentary.sgf',
+          divId: "glift_display1",
+          display: { theme: 'DEPTH' }
+        });
+      };
+      break;
+    case 'DepthBackgroundTheme':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          sgf: 'testdata/gogameguru_commentary.sgf',
+          divId: 'glift_display1',
+          display: {
+            theme: 'DEPTH',
+            goBoardBackground: 'images/purty_wood.png'
+          }
+        });
+      };
+      break;
+    case 'TranspTheme':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          sgf: 'testdata/gogameguru_commentary.sgf',
+          divId: 'glift_display1',
+          display: { theme: 'TRANSPARENT' }
+        });
+      };
+      break;
+    case 'TextbookTheme':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          sgf: 'testdata/gogameguru_commentary.sgf',
+          divId: 'glift_display1',
+          display: { theme: 'TEXTBOOK' }
+        });
+      };
+      break;
+    case 'ColorfulTheme':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          sgf: 'testdata/gogameguru_commentary.sgf',
+          divId: 'glift_display1',
+          display: { theme: 'COLORFUL' }
+        });
+      };
+      break;
+    case 'MoodyTheme':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          sgf: 'testdata/gogameguru_commentary.sgf',
+          divId: 'glift_display1',
+          display: { theme: 'MOODY' }
+        });
+      };
+      break;
     default:
       window.location.hash = 'ProblemEx';
   }
