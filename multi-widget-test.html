@@ -1,0 +1,23 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Glift Test</title>
+  <meta name="description" content="A basic page for testing Glift">
+  <script type='text/javascript' src='libs/glift.js'></script>
+</head>
+
+<body>
+
+  <div id='glift_display1' style='height:500px; width:100%; position:relative;'></div>
+  <script type='text/javascript'>gliftWidget = glift.create({"divId":"glift_display1","sgf":"testdata/ns_lesson/shape1.sgf"});</script>
+  <p>&nbsp;</p>
+  
+  <div id='glift_display2' style='height:500px; width:100%; position:relative;'></div>
+  <script type='text/javascript'>gliftWidget2 = glift.create({"divId":"glift_display2","sgf":"testdata/ns_lesson/shape8.sgf"});</script>
+  <!-- <script type='text/javascript'>gliftWidget2 = glift.create({"divId":"glift_display2","sgf":"(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]"});</script> -->
+
+</body>
+</html>
