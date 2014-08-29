@@ -25,6 +25,9 @@ var getContent = function(hash) {
             icons: [],
             initialPosition: 50,
             componentsToUse: ['BOARD']
+          },
+          display: {
+            disableZoomForMobile: 'true'
           }
         });
       }
@@ -36,7 +39,8 @@ var getContent = function(hash) {
           divId: "glift_display1",
           display: {
             theme: 'DEPTH',
-            goBoardBackground: 'images/purty_wood.png'
+            goBoardBackground: 'images/purty_wood.png',
+            disableZoomForMobile: 'true'
           }
         });
       };
