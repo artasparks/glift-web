@@ -27,7 +27,7 @@ var getContent = function(hash) {
             componentsToUse: ['BOARD']
           },
           display: {
-            disableZoomForMobile: 'true'
+            disableZoomForMobile: true
           }
         });
       }
@@ -40,7 +40,7 @@ var getContent = function(hash) {
           display: {
             theme: 'DEPTH',
             goBoardBackground: 'images/purty_wood.png',
-            disableZoomForMobile: 'true'
+            disableZoomForMobile: true
           }
         });
       };
