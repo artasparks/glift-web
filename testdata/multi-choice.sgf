@@ -1,0 +1,8 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[nc][od]AB[oc][qd]C[What are the ways Black can respond to this position?
+
+This is a position that comes from a common joseki.  You might think that black has only one response, but Black has another option.]
+(;B[pc]C[Correct.  This is the most common response])
+(;B[pd]LB[ob:A]C[This is a mistake. White will play at A, which gives Black bad shape.])
+(;B[ob]C[Correct!  This is Black's other option. This move was a favorite of Kitani Minoru.]))

@@ -74,6 +74,17 @@ var getContent = function(hash) {
         });
       };
       break;
+    case 'MultiChoiceProblem':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          sgf: {
+            url: 'testdata/multi-choice.sgf',
+            widgetType: 'CORRECT_VARIATIONS_PROBLEM'
+          },
+          divId: "glift_display1"
+        });
+      };
+      break;
     case 'BoardCoordsEx':
       currentCodeFunc = function() {
         gliftWidget = glift.create({
@@ -495,7 +506,7 @@ var getContent = function(hash) {
       };
       break;
     default:
-      window.location.hash = 'ProblemEx';
+      window.location.hash = 'Home';
   }
   currentCodeFunc();
 }
