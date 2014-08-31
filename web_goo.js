@@ -1,13 +1,17 @@
 (function() {
 var gliftWidget = undefined;
 var currentCodeFunc = function() {};
+
 var getContent = function(hash) {
   var value = hash;
-  if (hash === undefined || hash === "") {
+  if (hash === undefined || hash === '') {
     value = 'Home'
   }
-  gliftWidget !== undefined && gliftWidget.destroy();
-  $('#glift_display1').html("");
+
+  if (gliftWidget !== undefined) {
+    gliftWidget.destroy();
+    $('#glift_display1').empty();
+  }
   $('#extra_content').html("");
   switch(value) {
     case 'Home':
@@ -30,7 +34,7 @@ var getContent = function(hash) {
             disableZoomForMobile: true
           }
         });
-      }
+      };
       break;
     case 'GameEx':
       currentCodeFunc = function() {
@@ -506,10 +510,11 @@ var getContent = function(hash) {
       };
       break;
     default:
+      currentCodeFunc = undefined;
       window.location.hash = 'Home';
   }
-  currentCodeFunc();
-}
+  currentCodeFunc && currentCodeFunc();
+};
 
 $('#GliftVersion').text('Version: ' + glift.global.version);
 
