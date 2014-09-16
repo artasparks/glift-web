@@ -540,7 +540,7 @@ var hashChange = function(inhash) {
 hashChange();
 
 $(window).resize(function() {
-  gliftWidget && gliftWidget.draw();
+  gliftWidget && gliftWidget.redraw();
 });
 
 $('#code-button').click(function() {
