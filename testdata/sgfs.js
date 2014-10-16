@@ -49,13 +49,14 @@ testdata.sgfs = {
     "RU[Japanese]SZ[19]KM[0.00]\n" +
     "PW[White]PB[Black]AW[pb][mc][pc][qd][rd][qf][pg][qg]\n" +
     "AB[jc][oc][qc][pd][pe][pf]\n" +
+    "C[Black to make good shape]\n" + 
     "(;B[ob]C[Bad style.]\n" +
     ";W[qb]\n" +
     "(;B[nd]C[White's stone can easily escape.])\n" +
     "(;B[me]C[Lots of bad aji.]))\n" +
     "(;B[nc]\n" +
     "(;W[qb]\n" +
-    ";B[md]C[Correct]GB[1])\n" +
+    ";B[md]C[Correct.  This position is the best Black can hope for.]GB[1])\n" +
     "(;W[md]\n" +
     ";B[qb]GB[1]C[White loses his corner])))",
 
