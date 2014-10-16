@@ -52,8 +52,24 @@ var getContent = function(hash) {
       currentCodeFunc = function() {
         gliftWidget = glift.create({
           sgfCollection: [
+              // Implicitly convert problem to an SGF object using a
+              // literal SGF string reference
               testdata.sgfs.complexproblem,
-              testdata.sgfs.realproblem
+
+              // Explicitly create the SGF object using a literal
+              // SGF String reference and create an alias so we can
+              // refer to it later.
+              {
+                sgfString: testdata.sgfs.realproblem,
+                alias: 'realproblem'
+              },
+
+              // Refer to the previous problem and show the solution.
+              {
+                alias: 'realproblem',
+                initialPosition: '0.1.0.0',
+                widgetType: 'EXAMPLE'
+              }
           ],
           sgfDefaults: {
             widgetType: 'STANDARD_PROBLEM'
