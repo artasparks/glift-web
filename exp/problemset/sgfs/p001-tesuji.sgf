@@ -1,0 +1,30 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[dm][fm][cn][fn][ho][jo][po][ep][qp][hq]AB[gl][gm][im][jn][kn][co][dp][lp][cq][eq][fq][kq][oq]
+(;B[go]
+(;W[fp]
+;B[gp]
+;W[gn]
+(;B[hn]
+;W[gq]
+;B[hp]
+;W[io]
+;B[ip]C[Correct])
+(;B[gq]
+;W[hn]C[White connects]))
+(;W[gn]
+;B[hn]
+;W[gp]
+;B[fo]
+;W[fp]
+;B[eo]C[Correct]))
+(;B[gn]
+;W[fp]
+;B[go]
+;W[gp]
+;B[fo]
+;W[eo]
+;B[en]
+;W[em]C[White has connected])
+(;B[fp]
+;W[go]C[White connects easily]))

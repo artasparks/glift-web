@@ -1,0 +1,32 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[ik][kk][lk][ok][qk][dl][ll][cm][pm][dn][on][lo][mo][no][po][ep][gp][ip][mp][qp][fq][kq][mq][qq]AB[kl][im][km][mm][om][bn][cn][kn][mn][cp][lp][np][dq][eq][lq][nq][pq][kr][mr][or][qr][ls]
+(;B[jp]
+;W[kp]
+;B[jq]
+;W[lr]
+;B[lq]
+;W[jr]
+(;B[iq]C[Correct.]
+;W[ir]
+;B[hq]
+;W[hr]
+;B[hp]
+;W[io]
+;B[ho]
+;W[gq]
+;B[jl]C[Continuation.])
+(;B[ir]
+;W[jo]
+;B[iq]
+;W[io]C[Black can't connect now.]))
+(;B[kp]
+;W[ko]
+;B[jo]
+;W[jp]C[Black is cut in two])
+(;B[jq]
+;W[jp]
+;B[kp]
+;W[ko]C[Black can't connect.])
+(;B[jo]
+;W[kp]C[Black can't connect this way.]))
