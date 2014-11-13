@@ -1,7 +1,7 @@
 (;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
 RU[Japanese]SZ[19]KM[0.00]
 PW[White]PB[Black]AW[nk][nl][pl][lm][mm][ln][qn][gp][rp][lq][rq]AB[cj][ll][ml][km][nm][dn][nn][dp][np][pp][qq]
-;B[lp]
+(;B[lp]
 (;W[kp]
 ;B[lo]
 ;W[kn]
@@ -9,8 +9,10 @@ PW[White]PB[Black]AW[nk][nl][pl][lm][mm][ln][qn][gp][rp][lq][rq]AB[cj][ll][ml][k
 ;W[kl]
 ;B[jn]
 ;W[jm]
-;B[jp]
-;W[kq]
-;B[jq])
+;B[jp]C[Correct])
 (;W[kl]
-;B[kq]))
+;B[kq]C[Correct.]))
+(;B[lo]
+;W[kn]
+;B[ko]
+;W[jn]C[Better for White.]))

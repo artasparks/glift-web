@@ -18,18 +18,4 @@ PW[White]PB[Black]AW[bk][el][bm][cm][dm][en][qn][do][eo][ep][eq][fq][iq][dr][ir]
 ;W[gr]
 ;B[fr]
 ;W[hs]
-;B[er]C[Successful for Black, but Black can do better.])
-(;B[gq]
-;W[gr]
-;B[er]
-;W[fr]
-(;B[ds]
-;W[hq]
-;B[hs]
-;W[is]C[White lives.])
-(;B[hq]
-;W[es]
-;B[hr]
-;W[hs]
-;B[gs]
-;W[is]C[White lives.])))
+;B[er]C[Successful for Black, but Black can do better.]))

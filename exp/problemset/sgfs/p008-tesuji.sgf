@@ -2,8 +2,13 @@
 RU[Japanese]SZ[19]KM[0.00]
 PW[White]PB[Black]AW[dk][el][fl][cm][dm][fm][cn][gn][pn][go][bp][ep][fp][pp][cq][dq][eq]AB[dl][em][gm][hm][dn][en][fn][in][co][cp][ip][bq][fq][hq][nq][br][fr]
 (;B[bm]
+(;W[cl]
+;B[do]
 ;W[bn]
+;B[bo]C[Correct])
+(;W[bn]
 ;B[bo]
 ;W[cl]
-;B[do]C[Correct])
-(;B[bo]))
+;B[do]C[Correct]))
+(;B[bo]
+;W[do]C[White wins the capturing race.]))

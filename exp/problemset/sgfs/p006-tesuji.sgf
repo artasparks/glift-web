@@ -1,3 +1,18 @@
 (;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
 RU[Japanese]SZ[19]KM[0.00]
-PW[White]PB[Black]AW[oj][ek][gk][ik][jk][ol][im][jm][om][in][nn][ho][gp][hp][mp][cq][dq][eq][fq][kq][oq][pq][hr][qr]AB[jj][ck][kk][kl][nl][ql][cm][km][en][gn][hn][jn][kn][pn][go][io][cp][dp][ep][fp][jp][pp][qp][jq][qq][jr][rr])
+PW[White]PB[Black]AW[oj][ek][gk][ik][jk][ol][im][jm][om][in][nn][ho][gp][hp][mp][cq][dq][eq][fq][kq][oq][pq][hr][qr]AB[jj][ck][kk][kl][nl][ql][cm][km][en][gn][hn][jn][kn][pn][go][io][cp][dp][ep][fp][jp][pp][qp][jq][qq][jr][rr]
+;B[no]
+;W[mo]
+;B[np]
+(;W[mn]
+;B[mq]
+;W[lq]
+;B[mr]
+;W[lr]
+;B[ls]
+;W[ks]
+;B[ms]
+;W[lp]
+;B[kr]C[Correct])
+(;W[nq]
+;B[mn]C[Correct. White can't live on the bottom.]))

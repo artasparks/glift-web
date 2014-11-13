@@ -9,9 +9,9 @@ PW[White]PB[Black]AW[ql][cm][bn][co][bp][cp][np][dq][nq][dr][fr][es]AB[om][cn][d
 ;W[gs]
 ;B[cs]
 ;W[fs]
-(;B[gq]
+;B[gq]
 ;W[hr]
-(;B[ir]
+;B[ir]
 ;W[hq]
 ;B[hp]
 ;W[iq]
@@ -24,10 +24,6 @@ PW[White]PB[Black]AW[ql][cm][bn][co][bp][cp][np][dq][nq][dr][fr][es]AB[om][cn][d
 ;B[is]
 ;W[ir]
 ;B[kr]C[Correct])
-(;B[iq]
-;W[bq]C[Black's still behind in the capturing race.]))
-(;B[hq]
-;W[bq]C[Black can't win the capturing race]))
 (;B[gq]
 ;W[cs]
 ;B[hr]
