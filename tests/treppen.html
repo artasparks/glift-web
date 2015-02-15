@@ -1,0 +1,21 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Treppen Parser Test</title>
+  <meta name="description" content="A basic page for testing Glift">
+  <script type='text/javascript' src='../libs/glift.min.js'></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <div id='glift_display1' style='height:500px; width:100%; position:relative;'></div>
+
+  <script type='text/javascript'>
+    gliftWidget = glift.create({"divId":"glift_display1","sgf":"../testdata/treppen.sgf", "display": {"disableZoomForMobile":1}});
+  </script>
+</body>
+</html>

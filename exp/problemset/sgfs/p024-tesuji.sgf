@@ -1,3 +1,16 @@
 (;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
 RU[Japanese]SZ[19]KM[0.00]
-PW[White]PB[Black]AW[dk][ql][cm][dm][bn][en][hn][jn][bo][eo][jo][qo][bp][dp][ep][gp][ip][kp][lp][bq][eq][fq][iq][jq][mq][fr]AB[el][em][gm][dn][fn][co][do][fo][go][ho][ko][lo][cp][fp][mp][op][cq][dq][kq][lq][pq][cr][er][mr][fs])
+PW[White]PB[Black]AW[dk][ql][cm][dm][bn][en][hn][jn][bo][eo][jo][qo][bp][dp][ep][gp][ip][kp][lp][bq][eq][fq][iq][jq][mq][fr]AB[el][em][gm][dn][fn][co][do][fo][go][ho][ko][lo][cp][fp][mp][op][cq][dq][kq][lq][pq][cr][er][mr][fs]
+(;B[hq]
+;W[gs]
+;B[es]
+;W[hr]
+;B[gr]
+;W[gq]
+;B[hp]C[Correct])
+(;B[hp]
+;W[hq]
+;B[gq]
+;W[gr]
+;B[hr]
+;W[gp]C[It's a Ko and Black can do better.]))

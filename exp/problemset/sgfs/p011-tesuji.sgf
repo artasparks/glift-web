@@ -7,10 +7,12 @@ PW[White]PB[Black]AW[cn][in][kn][mn][ho][mo][hp][mp][iq][kq][mq][oq][pq][qq][ir]
 ;W[lr]
 ;B[ks]
 ;W[ls]
-;B[hs])
+;B[hs]C[Correct])
 (;W[lr]
 ;B[ms]
-;W[nr]
+(;W[nr]
 ;B[ks]
 ;W[ls]
-;B[hs]))
+;B[hs]C[Correct])
+(;W[ks]
+;B[nq]C[Correct])))

@@ -1,3 +1,18 @@
 (;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
 RU[Japanese]SZ[19]KM[0.00]
-PW[White]PB[Black]AW[pn][co][dp][ep][gp][pp][bq][cq][gq]AB[go][ho][hp][dq][eq][iq][nq][cr])
+PW[White]PB[Black]AW[pn][co][dp][ep][gp][pp][bq][cq][gq]AB[go][ho][hp][dq][eq][iq][nq][cr]
+;B[gr]
+(;W[hr]
+;B[fp]
+;W[fq]
+;B[fr]
+;W[fo]
+;B[hq]C[Correct])
+(;W[fr]
+;B[fq]
+;W[fp]
+;B[er]
+;W[hr]
+;B[fs]
+;W[hq]
+;B[jp]C[Correct. Black lives in the corner.]))
