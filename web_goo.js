@@ -27,8 +27,8 @@ var getContent = function(hash) {
             sgfString: "(;FF[4]GM[1]SZ[19]CA[UTF-8]SO[Glift]EV[]PB[Chen Yaoye]BR[9p]PW[Tan Xiao]WR[7p]KM[7.5]DT[2013-11-18]RE[B+0.5];B[qd];W[dc];B[pq];W[dq];B[nc];W[co];B[qk];W[jp];B[de];W[cg];B[cc];W[gl];B[dd];W[db];B[fd];W[hc];B[cf];W[dh];B[cb];W[mp];B[po];W[kc];B[dk];W[bf];B[be];W[df];B[ce];W[dm];B[fk];W[gh];B[hk];W[gn];B[hq];W[jq];B[eq];W[dr];B[io];W[im];B[jo];W[ko];B[jm];W[jn];B[in];W[kn];B[hm];W[il];B[hl];W[od];B[jk];W[oc])",
             widgetType: 'EXAMPLE',
             initialPosition: 30,
-            nextMovesPath: '0x10',
-            uiComponents: ['BOARD']
+            nextMovesPath: '0:10',
+            uiComponents: ['BOARD', 'STATUS_BAR']
           },
           display: {
             drawBoardCoords: true,
@@ -377,7 +377,7 @@ var getContent = function(hash) {
             initialPosition: '37.1'
           }, {
             url: 'testdata/younggil_lesson/younggil-game.sgf',
-            initialPosition: '37.1-49'
+            initialPosition: '37.1.0.0.0.0.0.0.0.0.0.0.0.0'
           }, {
             url: 'testdata/younggil_lesson/younggil-game.sgf',
             initialPosition: '37.1+'
@@ -435,14 +435,14 @@ var getContent = function(hash) {
             initialPosition: '85.1'
           }, {
             url: 'testdata/younggil_lesson/younggil-game.sgf',
-            initialPosition: '85.1-88'
+            initialPosition: '85.1.0.0'
           }, {
             url: 'testdata/younggil_lesson/younggil-game.sgf',
-            initialPosition: '85.1-92',
+            initialPosition: '85.1.0.0.0.0.0.0',
             showVariations: 'NEVER'
           }, {
             url: 'testdata/younggil_lesson/younggil-game.sgf',
-            initialPosition: '85.1-95',
+            initialPosition: '85.1.0.0.0.0.0.0.0.0.0',
             showVariations: 'NEVER'
           }, {
             url: 'testdata/younggil_lesson/younggil-game.sgf',
@@ -450,7 +450,7 @@ var getContent = function(hash) {
             showVariations: 'NEVER'
           }, {
             url: 'testdata/younggil_lesson/younggil-game.sgf',
-            initialPosition: '85.1-92.1',
+            initialPosition: '85.1.0.0.0.0.0.0.1',
             showVariations: 'NEVER'
           }, {
             url: 'testdata/younggil_lesson/younggil-game.sgf',
