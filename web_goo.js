@@ -57,8 +57,8 @@ var getContent = function(hash) {
         gliftWidget = glift.create({
           sgf: {
             url: 'testdata/gogameguru_commentary.sgf',
-            widgetType: 'EXAMPLE'
-            initialPosition: 20,
+            widgetType: 'EXAMPLE',
+            initialPosition: 140,
             nextMovesPath: '0:20',
           },
           divId: "glift_display1",
