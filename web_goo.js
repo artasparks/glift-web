@@ -52,6 +52,24 @@ var getContent = function(hash) {
         });
       };
       break;
+    case 'GameFigure':
+      currentCodeFunc = function() {
+        gliftWidget = glift.create({
+          sgf: {
+            url: 'testdata/gogameguru_commentary.sgf',
+            widgetType: 'EXAMPLE'
+            initialPosition: 20,
+            nextMovesPath: '0:20',
+          },
+          divId: "glift_display1",
+          display: {
+            theme: 'DEPTH',
+            goBoardBackground: 'images/purty_wood.png',
+            disableZoomForMobile: true
+          }
+        });
+      };
+      break;
     case 'ProblemEx':
       currentCodeFunc = function() {
         gliftWidget = glift.create({
