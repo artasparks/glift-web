@@ -59,7 +59,7 @@ var getContent = function(hash) {
             url: 'testdata/gogameguru_commentary.sgf',
             widgetType: 'EXAMPLE',
             initialPosition: 140,
-            nextMovesPath: '0:20',
+            nextMovesPath: '0:19',
           },
           divId: "glift_display1",
           display: {
